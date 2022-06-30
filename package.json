@@ -37,6 +37,7 @@
     "@benefex/respond.js": "^1.4.2",
     "@fancyapps/fancybox": "^3.5.7",
     "@popperjs/core": "^2.10.2",
+    "bootstrap": "^4.6.0",
     "flatpickr": "^4.6.13",
     "html5shiv": "^3.7.3",
     "imagemin": "^7.0.1",

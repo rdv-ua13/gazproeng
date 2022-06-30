@@ -148,7 +148,7 @@
 
                 <div class="unit-contact-area" id="tabsArea">
                   <div class="site-tab site-tab-shown" id="tab-1">
-                      <div class="unit-contact-address">Филлиал в г. Москва</div>
+                      <div class="unit-contact-address">Филиал в г. Москва</div>
                       <div class="unit-contact-area-items">
                         <div class="contact-element contact-element-white mb-0">
                            <div class="contact-element__label">Телефон</div>

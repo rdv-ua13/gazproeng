@@ -69,7 +69,7 @@
 
     <div class="section-area">
         <div class="outlined-aboutInfo">
-            <h2 class="bluehl-text">АО «Газпроектинжиниринг» сегодня…</h2>
+            <h2 class="h2 title-mb color-blue">АО «Газпроектинжиниринг» сегодня…</h2>
             <div class="block-mb-text-big">
                 <div class="text-block h5-text">
                     <p>…это 22 кандидата наук, 1 доктор наук и более 1000 высококвалифицированных специалистов, способных решать задачи любой сложности в области предоставления инжиниринговых услуг.</p>

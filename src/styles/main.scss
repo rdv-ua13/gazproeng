@@ -1,8 +1,6 @@
 /* Подключение стилей проекта */
 @import "helpers/fonts";
-
-/* Подключение стилей bootstrap */
-@import 'modules/grid';
+@import "helpers/transition";
 
 /* ============= common ============= */
 @import "components/common";

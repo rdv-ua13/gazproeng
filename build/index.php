@@ -234,7 +234,7 @@
     <div class="container">
         <div class="block-mb">
             <div class="h2 section-area__title text-center">Карта объектов</div>
-            <div class="section-area__subtitle text-center">Подзаголовок, поясняющий смысл блока и призывающий к действию</div>
+            <div class="section-area__subtitle text-center">Ознакомьтесь с уже реализованными проектами.</div>
         </div>
 
         <div class="map-content-box">

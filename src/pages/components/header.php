@@ -22,8 +22,87 @@
     <?else:?>
         <header class="header">
     <?endif;?>
-        <div class="container">
-            <div class="header-nav-area">
+        <div class="container-fluid container-lg header__container">
+
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="javascript:;">
+                    <svg class="icon">
+                        <use href="/build/img/sprite.svg#logo"></use>
+                    </svg>
+                    <svg class="icon-text">
+                        <use href="/build/img/sprite.svg#logo-text"></use>
+                    </svg>
+                </a>
+                <button class="navbar-toggler js-navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown"
+                               class="nav-link dropdown-toggle"
+                               href="javascript:;"
+                               role="button"
+                               data-toggle="dropdown"
+                               aria-haspopup="true"
+                               aria-expanded="true"
+                            >
+                                О компании
+                            </a>
+                            <div class="dropdown-menu"
+                                 aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item"
+                                   href="javascript:;"
+                                >О компании</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown"
+                               class="nav-link dropdown-toggle"
+                               href="javascript:;"
+                               role="button"
+                               data-toggle="dropdown"
+                               aria-haspopup="true"
+                               aria-expanded="true"
+                            >Деятельность</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="javascript:;">Разработка технологических объектов</a>
+                                <a class="dropdown-item" href="javascript:;">Проектирование систем безопасности</a>
+                                <a class="dropdown-item" href="javascript:;">Архитектурно-строительное направление</a>
+                                <a class="dropdown-item" href="javascript:;">Техническое сопровождение объектов эксплуатации</a>
+                                <a class="dropdown-item" href="javascript:;">Объекты газификации</a>
+                                <a class="dropdown-item" href="javascript:;">Цифровой инжиниринг и ИТ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:;">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:;">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:;">Акционерам и инвесторам</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="lang-switcher js-lang-switcher">
+                    <a class="lang-switcher-link" href="javascript:;">ENG</a>
+                    <ul class="lang-switcher-dropdown-menu">
+                        <li><a href="javascript:;" data-abbr="RU">Русский</a></li>
+                        <li><a href="javascript:;" data-abbr="ENG">English</a></li>
+                    </ul>
+                </div>
+            </nav><?/**/?>
+
+			<?/*<div class="header-nav-area">
                 <a href="javascript:;" class="logo-el">
                     <svg class="">
                         <use href="/build/img/logo.svg#logo"></use>
@@ -33,45 +112,46 @@
                     </svg>
                 </a>
 
-                <div class="responsive-nav d-md-flex justify-content-md-between">
-                    <nav>
-                        <ul>
-                            <li class="has-submenu">
-                                <a href="javascript:;">О компании</a>
-                                <ul>
-                                    <li><a href="javascript:;">О компании</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu">
-                                <a href="javascript:;">Деятельность</a>
-                                <ul>
-                                    <li><a href="javascript:;">Факты о компании</a></li>
-                                    <li><a href="javascript:;">Цели и ценности</a></li>
-                                    <li><a href="javascript:;">Команда и карьера</a></li>
-                                    <li><a href="javascript:;">Охрана природы</a></li>
-                                    <li><a href="javascript:;">Социальная ответственность</a></li>
-                                    <li><a href="javascript:;">Корпоративный журнал</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:;">Контакты</a></li>
-                            <li><a href="javascript:;">Новости</a></li>
-                            <li><a href="javascript:;">Акционерам и инвесторам</a></li>
-                        </ul>
-                    </nav>
+                <nav class="responsive-nav  header__navbar js-header-navbar">
+                    <ul>
+                        <li class="has-submenu">
+                            <a href="javascript:;">О компании</a>
+                            <ul>
+                                <li><a href="javascript:;">О компании</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="javascript:;">Деятельность</a>
+                            <ul>
+                                <li><a href="javascript:;">Факты о компании</a></li>
+                                <li><a href="javascript:;">Цели и ценности</a></li>
+                                <li><a href="javascript:;">Команда и карьера</a></li>
+                                <li><a href="javascript:;">Охрана природы</a></li>
+                                <li><a href="javascript:;">Социальная ответственность</a></li>
+                                <li><a href="javascript:;">Корпоративный журнал</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:;">Контакты</a></li>
+                        <li><a href="javascript:;">Новости</a></li>
+                        <li><a href="javascript:;">Акционерам и инвесторам</a></li>
+                    </ul>
 
-                    <div class="menu-btn open"> <span></span> <span></span> <span></span> </div>
-                </div>
+                    <!--<div class="menu-btn open"> <span></span> <span></span> <span></span> </div>-->
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
 
-                <div class="lang-switcher dropdown--menu">
+                <div class="header__lang-switcher lang-switcher dropdown--menu">
                     <a href="javascript:;">RUS</a>
                     <ul>
                         <li><a href="javascript:;">Русский</a></li>
                         <li><a href="javascript:;">English</a></li>
                     </ul>
                 </div>
-
-                <div class="menu-btn"> <span></span> <span></span> <span></span> </div>
-            </div>
+            </div>*/?>
         </div>
     </header>
 

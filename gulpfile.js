@@ -72,6 +72,7 @@ gulp.task("php:build", function () {
 // сбор стилей вендоров
 gulp.task("vendorsCss:build", function () {
     return gulp.src([
+        "node_modules/bootstrap/dist/css/bootstrap.min.css",
         "node_modules/swiper/swiper-bundle.min.css",
         "node_modules/flatpickr/dist/flatpickr.min.css",
         "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css",
@@ -114,6 +115,7 @@ gulp.task("libsJs:build", function () {
   return gulp.src([
     "node_modules/jquery/dist/jquery.js",
     "node_modules/@popperjs/core/dist/umd/popper.js",
+    "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
     "node_modules/swiper/swiper-bundle.js",
     "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js",
     "node_modules/jquery.maskedinput/src/jquery.maskedinput.js",

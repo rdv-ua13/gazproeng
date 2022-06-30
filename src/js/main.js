@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var app = new application();
+    let app = new application();
     app.init();
 });
 
@@ -9,11 +9,54 @@ function application() {
     //this.myMap;
 }
 application.prototype.init = function () {
+    this.setNavbarTogglerBehavior();
+    this.initLangSwitcher();
     this.initBtnDropdown();
     this.initStrategicGoal();
     this.initSliders();
+    this.initTabs();
+    this.setFilterTabsBehavior();
 }
 
+// Set navbar-toggler behavior js-lang-switcher
+application.prototype.setNavbarTogglerBehavior = function () {
+    if($(".js-navbar-toggler").length) {
+        $(".js-navbar-toggler").on("click", function (e) {
+            $(this).closest("body").toggleClass("overflow-hidden");
+            /*if (!$(this).closest("body").hasClass("overflow-hidden")) {
+                $(this).closest("body").addClass("overflow-hidden");
+            }
+            else if ($(this).closest("body").hasClass("overflow-hidden")) {
+                $(this).closest("body").removeClass("overflow-hidden");
+            }*/
+        });
+    }
+}
+// Init lang-switcher navbar behavior js-lang-switcher
+application.prototype.initLangSwitcher = function () {
+    if($(".js-lang-switcher").length) {
+        $(".js-lang-switcher").on("click", function (e) {
+            if (!$(this).hasClass("show")) {
+                $(".js-lang-switcher").not($(this)).removeClass("show");
+                $(this).addClass("show");
+            }
+            else if ($(this).hasClass("show")) {
+                $(this).removeClass("show");
+            }
+        });
+
+        $(document).on("click", function (e) {
+            if (!$(".js-lang-switcher").is(e.target) && $(".js-lang-switcher").has(e.target).length === 0) {
+                $(".js-lang-switcher").removeClass("show");
+            }
+        });
+
+        $(".js-lang-switcher .lang-switcher-dropdown-menu a").on("click", function (e) {
+            let textAbbr = $(this).data("abbr");
+            $(".lang-switcher-link").text(textAbbr);
+        });
+    }
+}
 // Init ".btn-dropdown" behavior
 application.prototype.initBtnDropdown = function () {
     if ($(".btn-dropdown").length) {
@@ -64,7 +107,7 @@ application.prototype.initStrategicGoal = function () {
 application.prototype.initSliders = function () {
     // Magazine slider
     if ($(".js-magazine-slider").length) {
-        var magazineSliderSettings = {
+        let magazineSliderSettings = {
             slidesPerView: 4,
             spaceBetween: 20,
             navigation: {
@@ -88,7 +131,7 @@ application.prototype.initSliders = function () {
 
     // Feedback slider
     if ($(".js-feedback-slider").length) {
-        var feedbackSliderSettings = {
+        let feedbackSliderSettings = {
             slidesPerView: 4,
             spaceBetween: 20,
             navigation: {
@@ -107,7 +150,7 @@ application.prototype.initSliders = function () {
 
     // Clients slider
     if ($(".js-clients-slider").length) {
-        var clientsSliderSettings = {
+        let clientsSliderSettings = {
             allowTouchMove: false,
             autoplay: {
                 delay: 0,
@@ -127,7 +170,7 @@ application.prototype.initSliders = function () {
 
     // Feedback thumbs slider
     if ($(".js-awards-thumbs-slider").length) {
-        var awardsSliderThumbsSettings = {
+        let awardsSliderThumbsSettings = {
             slidesPerView: 3,
             spaceBetween: 35,
             watchSlidesProgress: true,
@@ -136,7 +179,7 @@ application.prototype.initSliders = function () {
     }
     // Feedback slider
     if ($(".js-awards-slider").length) {
-        var awardsSliderSettings = {
+        let awardsSliderSettings = {
             slidesPerView: 1,
             spaceBetween: 35,
             effect: "fade",
@@ -159,13 +202,13 @@ application.prototype.initSliders = function () {
         new Swiper(".js-awards-slider", awardsSliderSettings);
     }
 
-    /*var swiper = new Swiper(".js-awards-thumbs-slider", {
+    /*let swiper = new Swiper(".js-awards-thumbs-slider", {
         spaceBetween: 10,
         slidesPerView: 4,
         freeMode: true,
         watchSlidesProgress: true,
       });
-      var swiper2 = new Swiper(".js-awards-slider", {
+      let swiper2 = new Swiper(".js-awards-slider", {
         spaceBetween: 10,
         navigation: {
           nextEl: ".swiper-button-next",
@@ -176,4 +219,46 @@ application.prototype.initSliders = function () {
         },
     });*/
 
+}
+// Init tabs
+application.prototype.initTabs = function () {
+    if ($(".tabs").length) {
+        // adding class "selected" to active tab
+        $(".tabs-heading__item").on("click", function () {
+            if (!$(this).find("input[type='checkbox']").prop("checked")) {
+                $(this).removeClass("selected");
+            } else if ($(this).find("input[type='checkbox']").prop("checked")) {
+                $(this).addClass("selected");
+            }
+        });
+
+        // show content of "selected" item
+        tabsContentBinding();
+        function tabsContentBinding() {
+            $(".tabs-heading__item").on("click", function () {
+                let currentSelected = $(this).data("target");
+                if (!$(this).find("input[type='checkbox']").prop("checked")) {
+                    $(this).closest(".tabs").find(".tab-content__section[data-id='" + currentSelected + "']").removeClass("active");
+                } else if ($(this).find("input[type='checkbox']").prop("checked")) {
+                    $(this).closest(".tabs").find(".tab-content__section[data-id='" + currentSelected + "']").addClass("active");
+                }
+            });
+        }
+    }
+}
+// Init filter tabs
+application.prototype.setFilterTabsBehavior = function () {
+    if ($(".page-search-result__filter").length) {
+        $(".page-search-result__filter .tabs-heading__item").on("click", function () {
+            $(".page-search-result__filter .tabs-heading__item").each(function () {
+                if ($(this).find("input[type='checkbox']").prop("checked")) {
+                    $(this).closest(".page-search-result__filter--default").removeClass("page-search-result__filter--default");
+                    return false;
+                } else {
+                    $(".page-search-result__filter").addClass("page-search-result__filter--default");
+                }
+
+            });
+        });
+    }
 }

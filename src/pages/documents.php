@@ -10,11 +10,10 @@
 
     <div class="section-area">
         <div class="site-tabs-el docs-tabs">
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn site-tab-shown" role="button" data-rel="tab-1">Разрешительные документы</a>
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-2">Отраслевая документация</a>
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-3">Информация для субподрядчиков</a>
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-4">Результаты проведения специальной оценки условий труда в Обществе</a>
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn" data-rel="tab-5">Реализация активов</a>
+            <a href="javascript:;" class="doc-tab site-tabs-el__btn site-tab-shown" role="button" data-rel="tab-1">Гражданские и административные объекты</a>
+            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-2">Технологические объекты</a>
+            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-3">Инфраструктурные объекты</a>
+            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-4">Объекты газификации</a>
         </div>
 
         <div class="section-area-mbsm" id="tabsArea">
@@ -320,7 +319,7 @@
                 </div>
             </div>
 
-            <div class="site-tab" id="tab-5">
+            <?/*<div class="site-tab" id="tab-5">
                 <div class="doc-section">
                     <div class="doc-section-heading">
                         Реализация активов
@@ -367,7 +366,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>*/?>
         </div>
     </div>
 </div>

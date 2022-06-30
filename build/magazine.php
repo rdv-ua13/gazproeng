@@ -219,7 +219,7 @@
                     </div>
                     <div class="editorial-office__info-item">
                         <div class="editorial-office__info-title">Адрес</div>
-                        <div class="editorial-office__info-value">Г. Воронеж, Ленинский проспект, 119, Корпус № 2, офис 414</div>
+                        <div class="editorial-office__info-value">г. Воронеж, Ленинский проспект, 119, Корпус № 2, офис 414</div>
                     </div>
                 </div>
             </div>
