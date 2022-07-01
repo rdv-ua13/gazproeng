@@ -4,15 +4,21 @@
 		<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
 
 		<div class="block-mb">
-			<h1 class="section-area__title">Деятельность</h1>
+			<h1 class="section-area__title">Наши проекты</h1>
 			<div class="site-caption dark-caption">АО «Газпроектинжиниринг» успешно выполняет как типовые, так и уникальные и особо сложные проекты</div>
 		</div>
 
 		<div class="section-area">
-			<div class="site-tabs-el docs-tabs">
+			<?/*<div class="site-tabs-el docs-tabs">
 				<a href="javascript:;" class="doc-tab site-tabs-el__btn site-tab-shown" role="button" data-rel="tab-1">Объекты гражданского строительства и инфраструктуры</a>
 				<a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-2">Технологические объекты</a>
-			</div>
+			</div>*/?>
+            <div class="site-tabs-el docs-tabs">
+                <a href="javascript:;" class="doc-tab site-tabs-el__btn site-tab-shown" role="button" data-rel="tab-1">Гражданские и административные объекты</a>
+                <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-2">Технологические объекты</a>
+                <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-3">Инфраструктурные объекты</a>
+                <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-4">Объекты газификации</a>
+            </div>
 
 			<div class="section-area-mbsm" id="tabsArea">
 				<div class="site-tab site-tab-shown" id="tab-1">

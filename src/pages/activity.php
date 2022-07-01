@@ -18,19 +18,19 @@
 
         <div class="section-area-mbsm" id="tabsArea">
             <div class="site-tab site-tab-shown" id="tab-1">
-                tab1
+                <!--tab1-->
             </div>
 
             <div class="site-tab" id="tab-2">
-                tab2
+                <!--tab2-->
             </div>
 
             <div class="site-tab" id="tab-3">
-                tab3
+                <!--tab3-->
             </div>
 
             <div class="site-tab" id="tab-4">
-                tab4
+                <!--tab4-->
             </div>
         </div>
     </div>

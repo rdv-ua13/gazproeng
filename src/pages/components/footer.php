@@ -137,7 +137,7 @@
 
     <script type="text/javascript">
         ymaps.ready(function () {
-            /* map 1 */
+            // map 1
             var myMap = new ymaps.Map('mapId', {
                     center: [51.673902, 39.253225],
                     zoom: 16,
@@ -157,9 +157,9 @@
             myMap.behaviors.disable('multiTouch');
 
             myMap.geoObjects.add(myPlacemark);
-            /* map 1.end */
+            // map 1.end
 
-            /* map 2 */
+            // map 2
             var map = new ymaps.Map('unitMap', {
                 center: [55.653822, 37.540057],
                 zoom: 14,
@@ -226,7 +226,7 @@
                 e.stopPropagation();
                 map.panTo([myPlacemark8.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
             });
-            /* map 2.end */
+            // map 2.end
         });
     </script>
 

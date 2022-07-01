@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: local("/build/fonts/Mulish-Light"), url("/build/fonts/Mulish-Light.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Mulish-Light"), url("/gazpi/build/fonts/Mulish-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: local("/build/fonts/Mulish-Regular"), url("/build/fonts/Mulish-Regular.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Mulish-Regular"), url("/gazpi/build/fonts/Mulish-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: local("/build/fonts/Mulish-Medium"), url("/build/fonts/Mulish-Medium.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Mulish-Medium"), url("/gazpi/build/fonts/Mulish-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: local("/build/fonts/Mulish-SemiBold"), url("/build/fonts/Mulish-SemiBold.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Mulish-SemiBold"), url("/gazpi/build/fonts/Mulish-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: local("/build/fonts/Mulish-Bold"), url("/build/fonts/Mulish-Bold.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Mulish-Bold"), url("/gazpi/build/fonts/Mulish-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: local("/build/fonts/Mulish-ExtraBold"), url("/build/fonts/Mulish-ExtraBold.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Mulish-ExtraBold"), url("/gazpi/build/fonts/Mulish-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -52,7 +52,7 @@
 
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: local("/build/fonts/Mulish-Black"), url("/build/fonts/Mulish-Black.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Mulish-Black"), url("/gazpi/build/fonts/Mulish-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: "Manrope", sans-serif;
-  src: url("/build/fonts/Manrope-Light.ttf") format("truetype");
+  src: url("/gazpi/build/fonts/Manrope-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -68,7 +68,7 @@
 
 @font-face {
   font-family: "Manrope", sans-serif;
-  src: url("/build/fonts/Manrope-Regular.ttf") format("truetype");
+  src: url("/gazpi/build/fonts/Manrope-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -76,7 +76,7 @@
 
 @font-face {
   font-family: "Manrope", sans-serif;
-  src: url("/build/fonts/Manrope-Bold.ttf") format("truetype");
+  src: url("/gazpi/build/fonts/Manrope-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -84,7 +84,7 @@
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("/build/fonts/Raleway-Light"), url("/build/fonts/Raleway-Light.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Raleway-Light"), url("/gazpi/build/fonts/Raleway-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -92,7 +92,7 @@
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("/build/fonts/Raleway-Regular"), url("/build/fonts/Raleway-Regular.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Raleway-Regular"), url("/gazpi/build/fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -100,7 +100,7 @@
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("/build/fonts/Raleway-Medium"), url("/build/fonts/Raleway-Medium.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Raleway-Medium"), url("/gazpi/build/fonts/Raleway-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -108,7 +108,7 @@
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("/build/fonts/Raleway-SemiBold"), url("/build/fonts/Raleway-SemiBold.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Raleway-SemiBold"), url("/gazpi/build/fonts/Raleway-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -116,7 +116,7 @@
 
 @font-face {
   font-family: "Raleway", sans-serif;
-  src: local("/build/fonts/Raleway-Bold"), url("/build/fonts/Raleway-Bold.ttf") format("truetype");
+  src: local("/gazpi/build/fonts/Raleway-Bold"), url("/gazpi/build/fonts/Raleway-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -324,7 +324,7 @@ textarea {
   width: 1720px;
   min-height: 1720px;
   height: 1720px;
-  background: url("/build/img/page-bg.png") center no-repeat, #F7F8FA;
+  background: url("/gazpi/build/img/page-bg.png") center no-repeat, #F7F8FA;
 }
 
 .main-page::before {
@@ -1025,7 +1025,7 @@ svg {
   bottom: 10px;
   width: 28px;
   height: 28px;
-  background: url(/build/img/zoom.svg) center no-repeat, rgba(46, 46, 46, 0.2);
+  background: url(/gazpi/build/img/zoom.svg) center no-repeat, rgba(46, 46, 46, 0.2);
 }
 
 .map-content-box__image img {
@@ -1073,7 +1073,7 @@ svg {
   vertical-align: middle;
   width: 8px;
   height: 12px;
-  background: url(/build/img/placemark.svg) no-repeat;
+  background: url(/gazpi/build/img/placemark.svg) no-repeat;
   margin-right: 8px;
 }
 
@@ -1127,11 +1127,11 @@ svg {
 }
 
 .map-content-box__bottom .arrow-btn.swiper-button-prev {
-  background: url(/build/img/arrow-left.svg) center left no-repeat;
+  background: url(/gazpi/build/img/arrow-left.svg) center left no-repeat;
 }
 
 .map-content-box__bottom .arrow-btn.swiper-button-next {
-  background: url(/build/img/arrow-right.svg) center right no-repeat;
+  background: url(/gazpi/build/img/arrow-right.svg) center right no-repeat;
 }
 
 .img-fluid {
@@ -1157,7 +1157,7 @@ footer,
 footer {
   padding-bottom: 0;
   font-family: "Manrope", sans-serif;
-  background: url(/build/img/footer-logo-pattern.png) center 150% no-repeat, #1A1A1A;
+  background: url(/gazpi/build/img/footer-logo-pattern.png) center 150% no-repeat, #1A1A1A;
 }
 
 footer ul li a {
@@ -1216,7 +1216,7 @@ footer ul li:not(:last-child) {
   margin-bottom: auto;
   width: 16px;
   height: 16px;
-  background: url(/build/img/search.svg) no-repeat;
+  background: url(/gazpi/build/img/search.svg) no-repeat;
 }
 
 .footer-search input {
@@ -1288,7 +1288,7 @@ footer ul li:not(:last-child) {
 }
 
 .pre-footer .dropdown--menu a:after {
-  background: url(/build/img/arrow-down-white.svg) no-repeat;
+  background: url(/gazpi/build/img/arrow-down-white.svg) no-repeat;
 }
 
 .dropdown--menu a:after {
@@ -1322,7 +1322,7 @@ footer ul li:not(:last-child) {
   height: 13px;
   display: inline-block;
   vertical-align: middle;
-  background: url(/build/img/link-icon.svg) no-repeat;
+  background: url(/gazpi/build/img/link-icon.svg) no-repeat;
 }
 
 .footer-bottom {
@@ -1500,7 +1500,7 @@ footer ul li:not(:last-child) {
   bottom: -50%;
   width: 344px;
   height: 448px;
-  background: url(/build/img/about-pattern.png) no-repeat;
+  background: url(/gazpi/build/img/about-pattern.png) no-repeat;
 }
 
 .info-card {
@@ -1543,7 +1543,7 @@ footer ul li:not(:last-child) {
 }
 
 .Unitsearch-section-area .info-card.info-card_exec {
-  background: url(/build/img/b-svg.svg) 6% 84% no-repeat, #fff;
+  background: url(/gazpi/build/img/b-svg.svg) 6% 84% no-repeat, #fff;
 }
 
 .info-card.info-card-prev-exec {
@@ -1614,7 +1614,7 @@ footer ul li:not(:last-child) {
   /*margin-top: 50px;
   margin-bottom: 100px;*/
   padding: 30px;
-  background: url(/build/img/cta-pattern.png) center, var(--blue-color);
+  background: url(/gazpi/build/img/cta-pattern.png) center, var(--blue-color);
 }
 
 .cta-box-inner {
@@ -1676,7 +1676,7 @@ footer ul li:not(:last-child) {
   margin-bottom: auto;
   width: 16px;
   height: 16px;
-  background: url(/build/img/search-dark.svg) no-repeat;
+  background: url(/gazpi/build/img/search-dark.svg) no-repeat;
 }
 
 .info-card_fio {
@@ -1844,7 +1844,7 @@ footer ul li:not(:last-child) {
   margin-bottom: auto;
   width: 41px;
   height: 41px;
-  background: url(/build/img/pic.svg) center no-repeat, var(--blue-color);
+  background: url(/gazpi/build/img/pic.svg) center no-repeat, var(--blue-color);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02), 0px 15px 30px rgba(0, 0, 0, 0.05);
 }
 
@@ -1854,7 +1854,7 @@ footer ul li:not(:last-child) {
 
 .timeline-bottom {
   padding: 52px 0;
-  background: url(/build/img/timeline-pattern.png) center repeat-x, var(--blue-color);
+  background: url(/gazpi/build/img/timeline-pattern.png) center repeat-x, var(--blue-color);
 }
 
 .timeline-bottom__year {
@@ -2040,7 +2040,7 @@ footer ul li:not(:last-child) {
 
 .outlined-aboutInfo {
   padding: 48px;
-  background: url(/build/img/outlined-bg.svg) center no-repeat;
+  background: url(/gazpi/build/img/outlined-bg.svg) center no-repeat;
   border: 2px solid rgba(46, 46, 46, 0.05);
 }
 
@@ -2143,11 +2143,11 @@ footer ul li:not(:last-child) {
 
 .filter-tGbox {
   padding: 20px;
-  background: url(/build/img/filter-pattern.svg) var(--blue-color) right center no-repeat;
+  background: url(/gazpi/build/img/filter-pattern.svg) var(--blue-color) right center no-repeat;
 }
 
 .unit-search-white:after {
-  background: url(/build/img/search.svg) no-repeat;
+  background: url(/gazpi/build/img/search.svg) no-repeat;
 }
 
 .unit-search-white input {
@@ -3079,7 +3079,7 @@ footer ul li:not(:last-child) {
   width: 1020px;
   min-height: 1200px;
   height: 1200px;
-  background: url("/build/img/page-bg.png") center/cover no-repeat, #F7F8FA;
+  background: url("/gazpi/build/img/page-bg.png") center/cover no-repeat, #F7F8FA;
 }
 
 .bgi-single-block::before,
@@ -3571,7 +3571,7 @@ input[type=search]::-webkit-search-results-decoration {
   width: 450px;
   min-height: 350px;
   height: 350px;
-  background: url("/build/img/design-pattern-90deg.png") center/cover no-repeat;
+  background: url("/gazpi/build/img/design-pattern-90deg.png") center/cover no-repeat;
 }
 
 .text-title-small {
@@ -7659,7 +7659,7 @@ input[type=search]::-webkit-search-results-decoration {
 		content: "";
 		position: absolute;
 		right: 48px;
-		background-image: url("/build/img/megaphone.png");
+		background-image: url("/gazpi/build/img/megaphone.png");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -8423,7 +8423,7 @@ footer ul {
   }
 
   footer {
-    background: url(/build/img/footer-logo-pattern.png) center bottom no-repeat, #1A1A1A;
+    background: url(/gazpi/build/img/footer-logo-pattern.png) center bottom no-repeat, #1A1A1A;
   }
 
   .cta-box.cta-box-text-block,
@@ -8793,7 +8793,7 @@ footer ul {
   	vertical-align: middle;
   	width: 35px;
   	height: 16px;
-  	background: url(/build/img/arrow-down-white.svg) center no-repeat;
+  	background: url(/gazpi/build/img/arrow-down-white.svg) center no-repeat;
   	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
@@ -9165,7 +9165,7 @@ footer ul {
   	vertical-align: middle;
   	width: 35px;
   	height: 16px;
-  	background: url(/build/img/arrow-down-white.svg) center no-repeat;
+  	background: url(/gazpi/build/img/arrow-down-white.svg) center no-repeat;
   	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
