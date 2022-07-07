@@ -1,9 +1,11 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="container container-small news-details">
+<div class="container-fluid container-lg">
+	<div class="container-small news-details">
         <div class="block-mb-text-big">
             <div class="news-details__view news-details__view--main">
                 <div class="news-details__view-content" style="background-image: url('/build/img/new-details-img1.jpg');">
@@ -39,7 +41,7 @@
         </div>
 
         <div class="block-mb-text-big">
-            <div class="cta-box cta-box-text-block">
+            <div class="cta-box cta-box-text-block cta-minus-mx">
                 <div class="cta-box-text-decor">
                     <svg class="">
                         <use href="/build/img/sprite.svg#quotes"></use>
@@ -77,32 +79,29 @@
             <div class="text-block text-block--fields text-block--fz-big">
                 <div class="title-mb-big h3">Читайте так же:</div>
                 <div class="row news-row">
-                    <div class="col-md-6 d-flex">
+                    <div class="col col-12 col-sm-6 d-flex">
                         <a href="javascript:;" class="news-article-box news-article-box-sm" title="">
                             <div class="news-article-box__image">
                                 <span class="news-article-box__date fixed-date-el">10.04.2021</span>
                                 <img src="/build/img/news-3.jpg" alt="">
                             </div>
-
-                            <h3 class="news-article-box__title">Итоги конкурса "Инженер года 2021"</h3>
+                            <div class="h5 news-article-box__title">Итоги конкурса "Инженер года 2021"</div>
                             <span class="news-article-box__caption">В 2021 году в конкурсе приняли участие более 70 лучших специалистов в своей сфере деятельности из 33 предприятий региона…</span>
                         </a>
                     </div>
-                    <div class="col-md-6 d-flex">
+                    <div class="col col-12 col-sm-6 d-flex">
                         <a href="javascript:;" class="news-article-box news-article-box-sm" title="">
                             <div class="news-article-box__image">
                                 <span class="news-article-box__date fixed-date-el">10.04.2021</span>
                                 <img src="/build/img/news-6.jpg" alt="">
                             </div>
-
-                            <h3 class="news-article-box__title">Мы гордимся своими успехами!</h3>
+                            <div class="h5 news-article-box__title">Мы гордимся своими успехами!</div>
                             <span class="news-article-box__caption">6 августа в преддверии профессионального праздника Дня строителя в Воронеже состоялось награждение лучших предприятий…</span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-
 	</div>
 </div>
 

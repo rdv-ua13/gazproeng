@@ -1,9 +1,11 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="row columned">
 			<div class="col col-12 block-mb">
 				<div class="img-h-xs">
@@ -21,12 +23,14 @@
 
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="h3 block-mb">В комплекс предоставляемых услуг входят:</div>
 
 		<div class="row">
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Cбор исходных данных</div>
@@ -39,7 +43,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Выполнение:</div>
@@ -58,7 +62,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Разработка технико-экономических обоснований</div>
@@ -71,7 +75,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Выполнение имитационного моделирования технологических процессов</div>
@@ -84,7 +88,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Разработка документации на техническое перевооружение</div>
@@ -97,7 +101,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Разработка проектной документации</div>
@@ -110,7 +114,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Рабочая документация</div>
@@ -123,7 +127,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Организация и прохождение экспертизы промышленной безопасности</div>
@@ -137,7 +141,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Организация и прохождение негосударственной экспертизы проектной документации</div>
@@ -150,7 +154,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Организация и прохождение экспертизы ФАУ «Главгосэкпертиза России»</div>
@@ -163,7 +167,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Авторский надзор за строительно-монтажными работами</div>
@@ -176,7 +180,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Оказание консультационных услуг</div>
@@ -191,8 +195,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="outlined-aboutInfo">
 			<div class="block-mb-text-big">
 				<h2 class="h2 title-mb-big">Реализованные проекты</h2>
@@ -276,7 +282,6 @@
 
 		</div>
 	</div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

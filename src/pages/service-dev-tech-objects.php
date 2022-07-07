@@ -1,9 +1,11 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="row columned">
 			<div class="col col-12 block-mb">
 				<div class="img-h-xs">
@@ -21,12 +23,14 @@
 
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="h3 block-mb">В рамках данного направления компания выполняет проектирование:</div>
 
 		<div class="row">
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Подземных хранилищ газа (ПХГ)</div>
@@ -39,7 +43,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Линейных частей магистральных газопроводов (ЛЧ МГ), газопроводов-отводов</div>
@@ -52,7 +56,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Компрессорных станции (КС) на ЛЧ МГ и дожимных компрессорные станции (ДКС)</div>
@@ -65,7 +69,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Газораспределительных (ГРС) и газоизмерительных станций (ГИС)</div>
@@ -78,7 +82,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Сливо-наливных эстакады, нефтебазы и склады нефтепродуктов</div>
@@ -91,7 +95,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Объектов вспомогательного производства на промышленных площадках ПАО «Газпром»</div>
@@ -105,7 +109,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Объектов производства, хранения и использования сжиженных газов</div>
@@ -119,10 +123,12 @@
 				</a>
 			</div>
 		</div>
-	</div>
+    </div>
+</div>
 
-	<div class="section-area">
-		<div class="cta-box cta-box-text-block">
+<div class="section-area">
+    <div class="container-fluid container-lg">
+		<div class="cta-box cta-box-text-block cta-minus-mx">
 			<div class="cta-box-inner">
 				<div class="cta-box-text text-block">
 					<p>На сегодняшний день специалистами Компании запроектировано более четырёх десятков ГИС и ГРС, многие из которых построены и успешно эксплуатируются в различных регионах России. Разработана проектная и рабочая документация по реконструкции, расширению, техническому перевооружению более 25 компрессорных станций, включая объекты основного технологического назначения, зданий и сооружения вспомогательного и природоохранного назначения, инженерной инфраструктуры.</p>
@@ -130,8 +136,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="outlined-aboutInfo">
 			<div class="block-mb-text-big">
 				<h2 class="h2 title-mb-big">Реализованные проекты</h2>
@@ -215,7 +223,6 @@
 
 		</div>
 	</div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

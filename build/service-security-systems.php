@@ -1,9 +1,11 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="row columned">
 			<div class="col col-12 block-mb">
 				<div class="img-h-xs">
@@ -21,12 +23,14 @@
 
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="h3 block-mb">В комплекс услуг по проектированию систем безопасности входят:</div>
 
 		<div class="row">
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Обследование объектов</div>
@@ -39,7 +43,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Разработка концепций безопасности объектов</div>
@@ -52,7 +56,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Подготовка технических требований на системы безопасности</div>
@@ -65,7 +69,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Проектирование инженерных средств охраны </div>
@@ -79,7 +83,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Проектирование технических средств и систем охраны </div>
@@ -93,7 +97,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Проектирование систем информационной безопасности</div>
@@ -106,7 +110,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-lg-4 col-sm-6 col-12">
+			<div class="col-lg-4 col-sm-6 col-12 d-flex">
 				<a href="javascript:;" class="job--box">
 					<div class="job--box__top">
 						<div class="job--box__heading">Разработка комплексных целевых программ</div>
@@ -121,9 +125,11 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
-		<div class="cta-box cta-box-text-block">
+<div class="section-area">
+    <div class="container-fluid container-lg">
+		<div class="cta-box cta-box-text-block cta-minus-mx">
 			<div class="cta-box-inner">
 				<div class="cta-box-text text-block">
 					<p>Компания является ведущей проектной организацией ПАО «Газпром» по системам безопасности:</p>
@@ -134,8 +140,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="outlined-aboutInfo">
 			<div class="block-mb-text-big">
 				<h2 class="h2 title-mb-big">Реализованные проекты</h2>
@@ -219,7 +227,6 @@
 
 		</div>
 	</div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

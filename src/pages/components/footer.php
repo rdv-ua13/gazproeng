@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-12 footer-logo-col">
-                        <a href="#" class="footer-logo"><img src="/build/img/footer-logo.png" class="img-fluid" alt=""></a>
+                        <a href="javascript:;" class="footer-logo"><img src="/build/img/footer-logo.png" class="img-fluid" alt=""></a>
                     </div>
 
                     <div class="col-md-6 col-12 d-flex flex-md-row flex-column justify-content-end">
@@ -17,10 +17,10 @@
 
                         <div class="t-bar-box">
                             <div class="t-bar-element dropdown--menu">
-                                <a href="#">RUS</a>
+                                <a href="javascript:;">RUS</a>
                                 <ul>
-                                    <li><a href="#">Русский</a></li>
-                                    <li><a href="#">English</a></li>
+                                    <li><a href="javascript:;">Русский</a></li>
+                                    <li><a href="javascript:;">English</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -38,43 +38,43 @@
                     <div class="col-lg-2 col-md-4 col-6 footer-col">
                         <div class="footer-nav-heading">КОМПАНИЯ</div>
                         <ul>
-                            <li><a href="">О нас</a></li>
-                            <li><a href="#">История</a></li>
-                            <li><a href="">Документы</a></li>
-                            <li><a href="">Заказчики</a></li>
-                            <li><a href="">Новости</a></li>
-                            <li><a href="">Журнал</a></li>
-                            <li><a href="">Охрана природы</a></li>
-                            <li><a href="">Вакансии</a></li>
+                            <li><a href="javascript:;">О нас</a></li>
+                            <li><a href="javascript:;">История</a></li>
+                            <li><a href="javascript:;">Документы</a></li>
+                            <li><a href="javascript:;">Заказчики</a></li>
+                            <li><a href="javascript:;">Новости</a></li>
+                            <li><a href="javascript:;">Журнал</a></li>
+                            <li><a href="javascript:;">Охрана природы</a></li>
+                            <li><a href="javascript:;">Вакансии</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 footer-col">
                         <div class="footer-nav-heading">Деятельность</div>
                         <ul>
-                            <li><a href="">Инженерные изыскания</a></li>
-                            <li><a href="">Проектирование</a></li>
-                            <li><a href="">Инжиниринг</a></li>
-                            <li><a href="">Разработка ПО</a></li>
-                            <li><a href="">Сертификация</a></li>
-                            <li><a href="">Испытательный центр</a></li>
+                            <li><a href="javascript:;">Инженерные изыскания</a></li>
+                            <li><a href="javascript:;">Проектирование</a></li>
+                            <li><a href="javascript:;">Инжиниринг</a></li>
+                            <li><a href="javascript:;">Разработка ПО</a></li>
+                            <li><a href="javascript:;">Сертификация</a></li>
+                            <li><a href="javascript:;">Испытательный центр</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-6 footer-col">
                         <div class="footer-nav-heading">проекты</div>
                         <ul>
-                            <li><a href="">Проектирование</a></li>
-                            <li><a href="">Инжиниринг</a></li>
-                            <li><a href="">Информационное 3D моделирование</a></li>
-                            <li><a href="">Разработка ПО</a></li>
+                            <li><a href="javascript:;">Проектирование</a></li>
+                            <li><a href="javascript:;">Инжиниринг</a></li>
+                            <li><a href="javascript:;">Информационное 3D моделирование</a></li>
+                            <li><a href="javascript:;">Разработка ПО</a></li>
                         </ul>
 
                         <div class="footer-nav-heading mt-4">Акционерам и инвесторам</div>
                         <ul>
-                            <li><a href="">Устав</a></li>
-                            <li><a href="">Аффилированные лица</a></li>
-                            <li><a href="">Отчётность</a></li>
+                            <li><a href="javascript:;">Устав</a></li>
+                            <li><a href="javascript:;">Аффилированные лица</a></li>
+                            <li><a href="javascript:;">Отчётность</a></li>
                         </ul>
                     </div>
 
@@ -83,12 +83,12 @@
                     <div class="col-lg-3 col-md-4 col-6 footer-col">
                         <div class="footer-nav-heading">Социальная ответственность</div>
                         <ul>
-                            <li><a href="">Медицинский центр</a></li>
-                            <li><a href="">Учебный центр</a></li>
-                            <li><a href="">База отдыха «Иволга»</a></li>
-                            <li><a href="">Музей Газпроектинжиниринг</a></li>
-                            <li><a href="">Совет молодёжи</a></li>
-                            <li><a href="">Корпоративный журнал</a></li>
+                            <li><a href="javascript:;">Медицинский центр</a></li>
+                            <li><a href="javascript:;">Учебный центр</a></li>
+                            <li><a href="javascript:;">База отдыха «Иволга»</a></li>
+                            <li><a href="javascript:;">Музей Газпроектинжиниринг</a></li>
+                            <li><a href="javascript:;">Совет молодёжи</a></li>
+                            <li><a href="javascript:;">Корпоративный журнал</a></li>
                         </ul>
                     </div>
 
@@ -97,14 +97,14 @@
                     <div class="col-lg-2 col-md-4 col-12 footer-col">
                         <div class="footer-nav-heading">Контакты</div>
                         <ul>
-                            <li><a href="">Контакты</a></li>
-                            <li><a href="">Удалённые подразделения</a></li>
-                            <li><a href="">Начальник управлений</a></li>
-                            <li><a href="">Обратная связь</a></li>
-                            <li><a href="">Анкетирование</a></li>
+                            <li><a href="javascript:;">Контакты</a></li>
+                            <li><a href="javascript:;">Удалённые подразделения</a></li>
+                            <li><a href="javascript:;">Начальник управлений</a></li>
+                            <li><a href="javascript:;">Обратная связь</a></li>
+                            <li><a href="javascript:;">Анкетирование</a></li>
                         </ul>
 
-                        <a href="#" class="link-el mt-4">Юбилей — 50 лет <i class="link-icon"></i></a>
+                        <a href="javascript:;" class="link-el mt-4">Юбилей — 50 лет <i class="link-icon"></i></a>
                     </div>
 
 
@@ -120,7 +120,7 @@
                             <span class="copyright">© АО «Газпроектинжиниринг» 2011 - 2022</span>
                         </div>
                         <div class="col-md-6 col-12 d-flex justify-content-center justify-content-md-end">
-                            <a href="#" class="policy-link">Политика конфиденциальности</a>
+                            <a href="javascript:;" class="policy-link">Политика конфиденциальности</a>
                         </div>
                     </div>
 

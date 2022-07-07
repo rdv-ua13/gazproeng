@@ -1,17 +1,21 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="block-mb">
-		<h1 class="section-area__title">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
+        <h1 class="section-area__title">
             Корпоративный журнал
             <div class="color-blue">«Проектировщик»</div>
         </h1>
-		<div class="site-caption dark-caption">«Проектировщик» – печатное информационное издание, освещающее деятельность компании «Газпроектинжиниринг», а также различные аспекты профессии проектировщика. Периодичность выхода — один раз в квартал. Журнал распространяется среди сотрудников, подрядчиков, заказчиков АО «Газпроектинжиниринг».</div>
-	</div>
+        <div class="site-caption dark-caption">«Проектировщик» – печатное информационное издание, освещающее деятельность компании «Газпроектинжиниринг», а также различные аспекты профессии проектировщика. Периодичность выхода — один раз в квартал. Журнал распространяется среди сотрудников, подрядчиков, заказчиков АО «Газпроектинжиниринг».</div>
+    </div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="magazine">
             <div class="block-header-control">
                 <div class="h2 block-header-control__title">Все выпуски</div>
@@ -194,16 +198,21 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-	</div>
+    </div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="editorial-office framed-block bgi-single-block">
-            <div class="row editorial-office__item">
-                <div class="col col-6 editorial-office__head">
-                    <div class="h2 editorial-office__head-title">О редакции</div>
-                    <div class="editorial-office__head-name">Учредитель и издатель: АО «ГАЗПРОЕКТИНЖИНИРИНГ»</div>
+            <div class="editorial-office__row editorial-office__row-main">
+                <div class="editorial-office__item">
+                    <div class="h2 editorial-office__item-title">О редакции</div>
                 </div>
-                <div class="col col-6 editorial-office__info">
+                <div class="editorial-office__item">
+                    <div class="editorial-office__item-name">Учредитель и издатель: АО «ГАЗПРОЕКТИНЖИНИРИНГ»</div>
+                </div>
+
+                <div class="editorial-office__item editorial-office__info">
                     <div class="editorial-office__info-item">
                         <div class="editorial-office__info-title">Телефон</div>
                         <div class="editorial-office__info-value">+7 (473) 226–34–45</div>
@@ -223,12 +232,16 @@
                     </div>
                 </div>
             </div>
-            <div class="row editorial-office__item">
-                <div class="col col-6 editorial-office__head">
-                    <div class="h4 editorial-office__head-title">Редакционная коллегия:</div>
-                    <div class="editorial-office__head-name">Пойманова У.Р</div>
+
+            <div class="editorial-office__row">
+                <div class="editorial-office__item">
+                    <div class="h4 editorial-office__item-title">Редакционная коллегия:</div>
                 </div>
-                <div class="col col-6 editorial-office__info">
+                <div class="editorial-office__item">
+                    <div class="editorial-office__item-name">Пойманова У.Р</div>
+                </div>
+
+                <div class="editorial-office__item editorial-office__info">
                     <div class="editorial-office__info-item">
                         <div class="editorial-office__info-title">Разработка дизайн-концепции и вёрстка</div>
                         <div class="editorial-office__info-value">Студия «Чёрный квадрат»</div>
@@ -240,9 +253,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

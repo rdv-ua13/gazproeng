@@ -1,32 +1,33 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="row columned">
             <div class="col col-12 block-mb">
-                <div class="img-h-xs">
-                    <img src="/build/img/service-img1.jpg" alt="">
-                </div>
+                <img class="img-h-xs" src="/build/img/service-img1.jpg" alt="">
             </div>
-			<div class="col col-6">
+			<div class="col сol-12 col-md-6 mb-4 mb-md-0">
 				<h1 class="section-area__title">Архитектурно-строительное направление</h1>
 			</div>
-			<div class="col col-6">
+			<div class="col сol-12 col-md-6">
 				<div class="h5-text text-block color-gray">
 					<p>Накопленный десятилетиями мощный технический и интеллектуальный потенциал, внедрение современных технологий позволяют АО «Газпроектинжиниринг» проектировать сложнейшие многофункциональные производственные объекты и объекты гражданского строительства для постоянных партнёров и новых заказчиков</p>
 				</div>
 			</div>
-
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="h3 block-mb">В рамках архитектурно-строительного направления деятельности Компания выполняет работы по проектированию:</div>
 
         <div class="row">
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div class="col-lg-4 col-sm-6 col-12 d-flex">
                 <a href="javascript:;" class="job--box">
                     <div class="job--box__top">
                         <div class="job--box__heading">Административных и общественных зданий</div>
@@ -39,7 +40,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div class="col-lg-4 col-sm-6 col-12 d-flex">
                 <a href="javascript:;" class="job--box">
                     <div class="job--box__top">
                         <div class="job--box__heading">Объектов производственного назначения</div>
@@ -53,7 +54,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div class="col-lg-4 col-sm-6 col-12 d-flex">
                 <a href="javascript:;" class="job--box">
                     <div class="job--box__top">
                         <div class="job--box__heading">Объектов специального назначения по требованиям гражданской обороны</div>
@@ -66,7 +67,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div class="col-lg-4 col-sm-6 col-12 d-flex">
                 <a href="javascript:;" class="job--box">
                     <div class="job--box__top">
                         <div class="job--box__heading">Жилых зданий</div>
@@ -79,7 +80,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12">
+            <div class="col-lg-4 col-sm-6 col-12 d-flex">
                 <a href="javascript:;" class="job--box">
                     <div class="job--box__top">
                         <div class="job--box__heading">Объектов социально-культурного и спортивного назначения</div>
@@ -94,8 +95,10 @@
             </div>
         </div>
 	</div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="outlined-aboutInfo">
             <div class="block-mb-text-big">
                 <h2 class="h2 title-mb-big">Реализованные проекты</h2>
@@ -109,7 +112,7 @@
             </div>
 
             <div class="row">
-                <div class="col col-12">
+                <div class="col col-12 project-card-wrapper">
                     <div class="project-card">
                         <span class="project-card__view">
                             <img src="/build/img/projects-img1.jpg" alt="">
@@ -179,7 +182,6 @@
 
         </div>
     </div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

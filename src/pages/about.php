@@ -1,17 +1,18 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
         <div class="row">
-            <div class="col-lg-5 mb-lg-0 mb-5">
+            <div class="col col-12 col-lg-5 mb-lg-0 mb-5">
                 <h1 class="section-area__title">О нас</h1>
-                <div class="site-caption dark-caption">АО «Газпроектинжиниринг» за более чем полвека прошло путь от проектно-конструкторского отдела Воронежского государственного союзного проектного института до одной из ведущих инжиниринговых компаний России</div>
+                <div class="site-caption dark-caption pr-lg-3 pr-xl-0">АО «Газпроектинжиниринг» за более чем полвека прошло путь от проектно-конструкторского отдела Воронежского государственного союзного проектного института до одной из ведущих инжиниринговых компаний России</div>
             </div>
-            <div class="col-lg-7">
+            <div class="col col-12 col-lg-7">
                 <div class="h4 title-mb color-blue">с 1995 года</div>
-
                 <div class="text-block">
                     <p>АО «Газпроектинжиниринг» входит в структуры ПАО «Газпром», осуществляя деятельность на его объектах по всей России.</p>
                     <p>Мы выполняем задачи в области проектирования комплексных систем безопасности, объектов газовой промышленности, инженерной инфраструктуры, вносим весомый вклад в реализацию плана ПАО «Газпром» по программам газоснабжения и газификации регионов.</p>
@@ -19,35 +20,41 @@
             </div>
         </div>
     </div>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
         <div class="h4 title-mb color-blue">с 2014 года</div>
-
         <div class="text-block">
             <p>В рамках оказания инжиниринговых услуг на территории Сахалинской области мы поддерживаем и расширяем сотрудничество с нефтегазовыми добывающими и сервисными компаниями, такими как: «Сахалин Энерджи Инвестмент Компани Лтд»., ООО «Газпром добыча шельф Южно-Сахалинск» и многими другими</p>
         </div>
     </div>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
         <div class="h4 title-mb color-blue">с 2020 года</div>
-
         <div class="text-block">
             <p>С 2020 года нами выстроены надёжные партнёрские отношения с ПАО «СИБУР Холдинг» – крупнейшей интегрированной нефтегазохимической компанией в стране.</p>
         </div>
     </div>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg px-fullscreen">
         <div class="cta-box cta-box-text-block">
             <div class="cta-box-inner">
                 <div class="cta-box-text">Компания оказывает весь спектр инжиниринговых услуг на объектах промышленного и гражданского строительства, нацелена на расширение сотрудничества с нефтегазовыми добывающими и сервисными компаниями и готова реализовывать любые задачи в рамках федеральных инвестиционных проектов.</div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="outlined-aboutInfo">
             <div class="block-mb-text-big">
-                <h2 class="h2 title-mb color-blue">АО «Газпроектинжиниринг»</h2>
+                <div class="h4 title-mb color-blue">АО «Газпроектинжиниринг»</div>
 
                 <div class="text-block">
                     <p>Высокотехнологичная компания, применяющая современные ИТ-решения в целях цифровизации процессов проектирования и управления производством. Мы реализуем проекты цифрового инжиниринга, в том числе, с использованием «цифровых двойников» - нового сервиса в области сопровождения объектов на этапах строительства и эксплуатации.</p>
@@ -78,8 +85,10 @@
             </div>*/?>
         </div>
     </div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="block-mb">
             <div class="h2 section-area__title">Миссия компании</div>
             <div class="site-caption site-caption--big site-caption--fz-big color-blue">Мы работаем для того, чтобы быть ведущим поставщиком проектных и инжиниринговых услуг, мы помогаем воплотить замыслы в реальность</div>
@@ -92,9 +101,10 @@
             </div>
         </div>
     </div>
+</div>
 
-
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="block-mb">
             <div class="h2 section-area__title">Стратегические цели</div>
         </div>
@@ -171,7 +181,6 @@
                 </button>
             </li>
         </ul>
-
     </div>
 </div>
 

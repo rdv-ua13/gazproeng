@@ -9,33 +9,6 @@
     </div>
 
     <div class="section-area">
-        <div class="site-tabs-el docs-tabs">
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn site-tab-shown" role="button" data-rel="tab-1">Гражданские и административные объекты</a>
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-2">Технологические объекты</a>
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-3">Инфраструктурные объекты</a>
-            <a href="javascript:;" class="doc-tab site-tabs-el__btn" role="button" data-rel="tab-4">Объекты газификации</a>
-        </div>
-
-        <div class="section-area-mbsm" id="tabsArea">
-            <div class="site-tab site-tab-shown" id="tab-1">
-                <!--tab1-->
-            </div>
-
-            <div class="site-tab" id="tab-2">
-                <!--tab2-->
-            </div>
-
-            <div class="site-tab" id="tab-3">
-                <!--tab3-->
-            </div>
-
-            <div class="site-tab" id="tab-4">
-                <!--tab4-->
-            </div>
-        </div>
-    </div>
-
-    <div class="section-area">
         <div class="row">
             <div class="col-lg-4 col-sm-6 col-12">
                 <a href="javascript:;" class="job--box">

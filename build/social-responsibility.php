@@ -1,9 +1,11 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
         <div class="site-caption site-caption--big dark-caption">
             <h1 class="section-area__title">Корпоративная социально-культурная деятельность</h1>
             <div class="text-block">
@@ -12,8 +14,10 @@
             </div>
         </div>
     </div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="row linked-card">
             <div class="col col-4">
                 <div class="linked-card__item" style="background-image: url('/build/img/soc-response-img1.jpg')">
@@ -68,8 +72,10 @@
             </div>
 		</div>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<div class="framed-block bgi-single-block">
 			<div class="h2 title-mb">Социальная ответственность</div>
 
@@ -154,8 +160,10 @@
             </div>
 		</div>
 	</div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="row columned">
             <div class="col col-6">
                 <div class="columned__heading">
@@ -172,8 +180,10 @@
             </div>
         </div>
     </div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="row columned">
             <div class="col col-5 mb-5">
                 <div class="columned__heading">
@@ -206,8 +216,10 @@
             </div>
         </div>
     </div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="row columned">
             <div class="col col-4 mb-5">
                 <div class="h2 title-mb-big">Спортивный<br>комплекс</div>
@@ -230,7 +242,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

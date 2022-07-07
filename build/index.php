@@ -188,51 +188,6 @@
 <div class="section-area">
     <div class="container">
         <div class="block-mb">
-            <div class="h2 section-area__title text-center">Последние новости</div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-7 col-12 d-flex news-featured-area">
-                <a href="javascript:;" class="news-article-box mb-0" title="">
-                    <div class="news-article-box__image">
-                        <span class="news-article-box__date fixed-date-el">10.04.2021</span>
-                        <img src="/build/img/news-article.jpg" alt="">
-                    </div>
-
-                    <h3 class="news-article-box__title">Идейные соображения высшего порядка, а также разбавленное изрядной долей эмпатии</h3>
-                    <span class="news-article-box__caption">Предварительные выводы неутешительны: существующая теория, в своём классическом представлении, допускает внедрение направлений Предварительные выводы неутешительны: существующая теория, в своём классическом представлении, допускает внедрение направлений</span>
-                </a>
-            </div>
-
-            <div class="col-lg-5 col-12">
-                <a href="javascript:;" class="news-article-box news-article-box-short" title="">
-                    <span class="news-article-box__date">10.04.2021</span>
-                    <h3 class="news-article-box__title">Высокий уровень вовлечения представителей целевой аудитории является чётким</h3>
-                    <span class="news-article-box__caption">Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример</span>
-                </a>
-
-                <a href="javascript:;" class="news-article-box news-article-box-short" title="">
-                    <span class="news-article-box__date">10.04.2021</span>
-                    <h3 class="news-article-box__title">Высокий уровень вовлечения представителей целевой аудитории является чётким</h3>
-                    <span class="news-article-box__caption">Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример</span>
-                </a>
-
-                <a href="javascript:;" class="news-article-box news-article-box-short" title="">
-                    <span class="news-article-box__date">10.04.2021</span>
-                    <h3 class="news-article-box__title">Высокий уровень вовлечения представителей целевой аудитории является чётким</h3>
-                    <span class="news-article-box__caption">Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример</span>
-                </a>
-
-                <a href="javascript:;" class="button-element fluid-width" role="button">Смотреть все новости</a>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<div class="section-area">
-    <div class="container">
-        <div class="block-mb">
             <div class="h2 section-area__title text-center">Карта объектов</div>
             <div class="section-area__subtitle text-center">Ознакомьтесь с уже реализованными проектами.</div>
         </div>
@@ -447,6 +402,51 @@
                 </defs>
             </svg>
 
+        </div>
+
+    </div>
+</div>
+
+<div class="section-area">
+    <div class="container">
+        <div class="block-mb">
+            <div class="h2 section-area__title text-center">Последние новости</div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-7 col-12 d-flex news-featured-area">
+                <a href="javascript:;" class="news-article-box mb-0" title="">
+                    <div class="news-article-box__image">
+                        <span class="news-article-box__date fixed-date-el">10.04.2021</span>
+                        <img src="/build/img/news-article.jpg" alt="">
+                    </div>
+
+                    <h3 class="news-article-box__title">Идейные соображения высшего порядка, а также разбавленное изрядной долей эмпатии</h3>
+                    <span class="news-article-box__caption">Предварительные выводы неутешительны: существующая теория, в своём классическом представлении, допускает внедрение направлений Предварительные выводы неутешительны: существующая теория, в своём классическом представлении, допускает внедрение направлений</span>
+                </a>
+            </div>
+
+            <div class="col-lg-5 col-12">
+                <a href="javascript:;" class="news-article-box news-article-box-short" title="">
+                    <span class="news-article-box__date">10.04.2021</span>
+                    <h3 class="news-article-box__title">Высокий уровень вовлечения представителей целевой аудитории является чётким</h3>
+                    <span class="news-article-box__caption">Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример</span>
+                </a>
+
+                <a href="javascript:;" class="news-article-box news-article-box-short" title="">
+                    <span class="news-article-box__date">10.04.2021</span>
+                    <h3 class="news-article-box__title">Высокий уровень вовлечения представителей целевой аудитории является чётким</h3>
+                    <span class="news-article-box__caption">Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример</span>
+                </a>
+
+                <a href="javascript:;" class="news-article-box news-article-box-short" title="">
+                    <span class="news-article-box__date">10.04.2021</span>
+                    <h3 class="news-article-box__title">Высокий уровень вовлечения представителей целевой аудитории является чётким</h3>
+                    <span class="news-article-box__caption">Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример Являясь всего лишь частью общей картины, независимые государства, которые представляют собой яркий пример</span>
+                </a>
+
+                <a href="javascript:;" class="button-element fluid-width" role="button">Смотреть все новости</a>
+            </div>
         </div>
 
     </div>

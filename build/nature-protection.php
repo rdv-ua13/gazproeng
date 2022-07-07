@@ -1,9 +1,11 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="container container-small">
+<div class="container-fluid container-lg">
+	<div class="container-small">
         <div class="block-mb-text">
             <h1 class="section-area__title">Охрана природы</h1>
             <div class="h4 title-mb">Общественные слушания</div>
@@ -22,45 +24,45 @@
                         <div class="block-mb-text h5-text">Общество с ограниченной ответственностью «Газпром добыча Уренгой» (ООО «Газпром добыча Уренгой»)</div>
 
                         <div class="row">
-                            <div class="col-5 mb-4">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">ОГРН</div>
                             </div>
-                            <div class="col-7 mb-4">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>102+7 900 628-93-2undefined</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">ИНН</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>+7 904 034-78-4undefined</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Юридический<br>и фактический адрес</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>629307, Российская Федерация, Ямало-Ненецкий автономный округ, г. Новый Уренгой, ул. Железнодорожная, д. 8</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Телефон</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>+7 3494 94-81-11</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Факс</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>22–04–49</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-0">
                                 <div class="color-gray">Электронная почта</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7">
                                 <div>gdu@gd-urengoy.gazprom.ru</div>
                             </div>
                         </div>
@@ -71,94 +73,94 @@
                         <div class="block-mb-text h5-text">Акционерное общество «Газпроектинжиниринг» (АО «Газпроектинжиниринг»)</div>
 
                         <div class="row">
-                            <div class="col-5 mb-4">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">ОГРН</div>
                             </div>
-                            <div class="col-7 mb-4">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>1023601529533</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">ИНН</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>3661001457</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Юридический<br>и фактический адрес</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>394007, г. Воронеж, Ленинский проспект, 119</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Телефон</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>+7 (473) 226–34–45</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Факс</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>226–36–04</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-0">
                                 <div class="color-gray">Электронная почта</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7">
                                 <div>ruk@gasp.ru</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="block-mb">
+                    <div class="">
                         <div class="title-mb h4 site-caption color-blue">Наименование органа местного самоуправления, ответственного за организацию общественного обсуждения:</div>
                         <div class="block-mb-text h5-text">Департамент строительства и жилищно-коммунального комплекса Администрации города Новый Уренгой (ДСиЖКК)</div>
 
                         <div class="row">
-                            <div class="col-5 mb-4">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">ОГРН</div>
                             </div>
-                            <div class="col-7 mb-4">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>111+7 904 006-43-0undefined</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">ИНН</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>+7 904 067-61-3undefined</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Юридический<br>и фактический адрес</div>
                             </div>
-                            <div class="col-7 mb-3">
-                                <div>629300, Ямало-Ненецкий автономный округ, г. Новый Уренгой, ул. Индустриальная 4</div>
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
+                                <div>629300, Ямало-Ненецкий автономный округ, г. Новый Уренгой, ул. Индустриальная 4</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Телефон</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>+7 3494 22-19-23</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-4">
                                 <div class="color-gray">Факс</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7 mb-3 mb-md-4">
                                 <div>22–18–62</div>
                             </div>
 
-                            <div class="col-5 mb-3">
+                            <div class="col col-12 col-md-5 mb-2 mb-md-0">
                                 <div class="color-gray">Электронная почта</div>
                             </div>
-                            <div class="col-7 mb-3">
+                            <div class="col col-12 col-md-7">
                                 <div>dsjkk@nur.yanao.ru</div>
                             </div>
                         </div>
@@ -201,32 +203,32 @@
                     <p>Ознакомиться с материалами объекта государственной экологической экспертизы — проектной документацией «Реконструкция резервуарных парков светлых нефтепродуктов базы по хранению и реализации ГСМ, метанола и химикатов УМТСиК», включая предварительные материалы оценки воздействия на окружающую среду, можно в сети Интернет
                         <a class="color-blue" href="https://nur.yanao.ru">https://nur.yanao.ru</a> на официальном сайте муниципального образования город Новый Уренгой, раздел Деятельность / Городское хозяйство / Экология</p>
                 </div>
-                <div class="row h5">
-                    <div class="col-6 mb-3">
+                <div class="row h5 mb-3-minus">
+                    <div class="col col-12 col-md-6 mb-2 mb-md-3">
                         <div class="color-gray">Сроки доступности объекта общественного обсуждения:</div>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col col-12 col-md-6 mb-3">
                         <div>13.12.2021–22.01.2022</div>
                     </div>
 
-                    <div class="col-6 mb-3">
+                    <div class="col col-12 col-md-6 mb-2 mb-md-3">
                         <div class="color-gray">Форма общественного обсуждения:</div>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col col-12 col-md-6 mb-3">
                         <div>Опрос</div>
                     </div>
 
-                    <div class="col-6 mb-3">
+                    <div class="col col-12 col-md-6 mb-2 mb-md-3">
                         <div class="color-gray">Сроки проведения общественного обсуждения:</div>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col col-12 col-md-6 mb-3">
                         <div>13.12.2021–12.01.2022</div>
                     </div>
 
-                    <div class="col-6 mb-3">
+                    <div class="col col-12 col-md-6 mb-2 mb-md-3">
                         <div class="color-gray">Место размещения опросных листов, в том числе в электронном виде:</div>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col col-12 col-md-6 mb-3">
                         <div>В сети Интернет <a class="h5 color-blue" href="https://nur.yanao.ru">https://nur.yanao.ru</a> на официальном сайте муниципального образования город Новый Уренгой, раздел Деятельность / Городское хозяйство / Экология</div>
                     </div>
                 </div>
@@ -261,16 +263,20 @@
                             <p>Начальник отдела проектных и проектно-изыскательских работ, технического регулирования и экспертизы проектов Службы организации реконструкции и строительства основных фондов ООО «Газпром добыча Уренгой»</p>
                         </div>
                         <div class="contact-card__contacts">
-                            <div class="contact-card__contacts-item">
-                                <div class="contact-card__contacts-title">Телефон</div>
-                                <div class="contact-card__contacts-value">
-                                    <a href="tel:+74732263445">+7 3494 94-83-41</a>
+                            <div class="contact-card__contacts-row">
+                                <div class="contact-card__contacts-item">
+                                    <div class="contact-card__contacts-title">Телефон</div>
+                                    <div class="contact-card__contacts-value">
+                                        <a href="tel:+74732263445">+7 3494 94-83-41</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="contact-card__contacts-item">
-                                <div class="contact-card__contacts-title">Доп. телефон</div>
-                                <div class="contact-card__contacts-value">
-                                    <a href="tel:+74732263445">94–89–62</a>
+                            <div class="contact-card__contacts-row">
+                                <div class="contact-card__contacts-item">
+                                    <div class="contact-card__contacts-title">Доп. телефон</div>
+                                    <div class="contact-card__contacts-value">
+                                        <a href="tel:+74732263445">94–89–62</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -281,19 +287,23 @@
                             <p>Главный инженер проекта АО «Газпроектинжиниринг»</p>
                         </div>
                         <div class="contact-card__contacts">
-                            <div class="contact-card__contacts-item">
-                                <div class="contact-card__contacts-title">Телефон</div>
-                                <div class="contact-card__contacts-value">
-                                    <a href="tel:+74732263445">+7 (473) 269–86–67</a>
-                                </div>
-                                <div class="contact-card__contacts-additional text-right">
-                                    <span>доб. 13–16</span>
+                            <div class="contact-card__contacts-row">
+                                <div class="contact-card__contacts-item">
+                                    <div class="contact-card__contacts-title">Телефон</div>
+                                    <div class="contact-card__contacts-value">
+                                        <a href="tel:+74732263445">+7 (473) 269–86–67</a>
+                                    </div>
+                                    <div class="contact-card__contacts-additional text-right">
+                                        <span>доб. 13–16</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="contact-card__contacts-item">
-                                <div class="contact-card__contacts-title">Электронная почта</div>
-                                <div class="contact-card__contacts-value">
-                                    <a href="mailto:a.privalov@gasp.ru">a.privalov@gasp.ru</a>
+                            <div class="contact-card__contacts-row">
+                                <div class="contact-card__contacts-item">
+                                    <div class="contact-card__contacts-title">Электронная почта</div>
+                                    <div class="contact-card__contacts-value">
+                                        <a href="mailto:a.privalov@gasp.ru">a.privalov@gasp.ru</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -304,19 +314,23 @@
                             <p>Ведущий инженер отдела управления жилищно-коммунального хозяйства Департамента строительства и жилищно-коммунального комплекса Администрации города Новый Уренгой</p>
                         </div>
                         <div class="contact-card__contacts">
-                            <div class="contact-card__contacts-item">
-                                <div class="contact-card__contacts-title">Телефон</div>
-                                <div class="contact-card__contacts-value">
-                                    <a href="tel:+74732263445">+7 3494 22-18-61</a>
-                                </div>
-                                <div class="contact-card__contacts-additional text-right">
-                                    <span>доб. 13–16</span>
+                            <div class="contact-card__contacts-row">
+                                <div class="contact-card__contacts-item">
+                                    <div class="contact-card__contacts-title">Телефон</div>
+                                    <div class="contact-card__contacts-value">
+                                        <a href="tel:+74732263445">+7 3494 22-18-61</a>
+                                    </div>
+                                    <div class="contact-card__contacts-additional text-right">
+                                        <span>доб. 13–16</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="contact-card__contacts-item">
-                                <div class="contact-card__contacts-title">Электронная почта</div>
-                                <div class="contact-card__contacts-value">
-                                    <a href="mailto:Mulyukova.YB@nur.yanao.ru">Mulyukova.YB@nur.yanao.ru</a>
+                            <div class="contact-card__contacts-row">
+                                <div class="contact-card__contacts-item">
+                                    <div class="contact-card__contacts-title">Электронная почта</div>
+                                    <div class="contact-card__contacts-value">
+                                        <a href="mailto:Mulyukova.YB@nur.yanao.ru">Mulyukova.YB@nur.yanao.ru</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +342,7 @@
                 <div class="h4 title-mb">Тома ОВОС 14936</div>
                 <div class="doc-section">
                     <div class="row">
-                        <div class="col-lg-4 col-6">
+                        <div class="col col-6 col-md-4">
                             <a href="javascript:;" class="info-card info-card_doc info-card--report">
                                 <div class="info-card__doc-header h5 color-main-text mb-3">Том 12.7.1</div>
                                 <div class="info-card__fileInfo">
@@ -337,7 +351,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-6">
+                        <div class="col col-6 col-md-4">
                             <a href="javascript:;" class="info-card info-card_doc info-card--report">
                                 <div class="info-card__doc-header h5 color-main-text mb-3">Том 12.7.2</div>
                                 <div class="info-card__fileInfo">
@@ -346,7 +360,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-6">
+                        <div class="col col-6 col-md-4">
                             <a href="javascript:;" class="info-card info-card_doc info-card--report">
                                 <div class="info-card__doc-header h5 color-main-text mb-3">Том 12.7.3</div>
                                 <div class="info-card__fileInfo">
@@ -355,7 +369,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-6">
+                        <div class="col col-6 col-md-4">
                             <a href="javascript:;" class="info-card info-card_doc info-card--report">
                                 <div class="info-card__doc-header h5 color-main-text mb-3">Том 12.7.4</div>
                                 <div class="info-card__fileInfo">
@@ -364,7 +378,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-6">
+                        <div class="col col-6 col-md-4">
                             <a href="javascript:;" class="info-card info-card_doc info-card--report">
                                 <div class="info-card__doc-header h5 color-main-text mb-3">Том 12.7.5</div>
                                 <div class="info-card__fileInfo">
@@ -373,7 +387,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-6">
+                        <div class="col col-6 col-md-4">
                             <a href="javascript:;" class="info-card info-card_doc info-card--report">
                                 <div class="info-card__doc-header h5 color-main-text mb-3">Том 12.7.6</div>
                                 <div class="info-card__fileInfo">
@@ -390,7 +404,7 @@
                 <div class="h4 title-mb">Проектная документация</div>
                 <div class="doc-section">
                     <div class="row">
-                        <div class="col-lg-4 col-6">
+                        <div class="col col-6 col-md-4">
                             <a href="javascript:;" class="info-card info-card_doc info-card--report">
                                 <div class="info-card__doc-header h5 color-main-text mb-3">ПД 14936</div>
                                 <div class="info-card__fileInfo">

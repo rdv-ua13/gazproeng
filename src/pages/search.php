@@ -1,13 +1,17 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="block-mb">
-		<h1 class="section-area__title">Поиск</h1>
-	</div>
+<div class="block-mb">
+    <div class="container-fluid container-lg">
+        <h1 class="section-area__title">Поиск</h1>
+    </div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <form id="" class="page-search" method="" action="">
             <div class="field-wrapper">
                 <input id="" class="field-input" type="search" name="" placeholder="Введите поисковой запрос..">
@@ -18,9 +22,11 @@
                 </button>
             </div>
         </form>
-	</div>
+    </div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="title-mb-big">
             <div class="h4">Синтаксис поискового запроса:</div>
         </div>
@@ -62,7 +68,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

@@ -79,20 +79,10 @@ $(document).ready(function() {
         loop: false,
         speed: 150,
         mousewheel: {
-            //sensitivity: 1,
             releaseOnEdges: true,
         },
         centeredSlides: true,
         slideToClickedSlide: true,
-        autoHeight: true,
-
-        breakpoints: {
-            767: {
-                slidesPerView: "auto",
-                autoHeight: false,
-                centeredSlides: true,
-            }
-        }
     });
 
 
@@ -126,8 +116,6 @@ $(document).ready(function() {
     }
 
 
-    /*$('.has-submenu > a').append('<div class="toggleBtn"></div>');*/
-
     $('.menu-btn').on('click', function() {
         if (!$('.js-header-navbar').hasClass('active')) {
             $('.menu-btn').addClass('open');
@@ -137,11 +125,6 @@ $(document).ready(function() {
             $('.js-header-navbar').removeClass('active');
         }
     });
-
-    /*$('.has-submenu > a').click(function() {
-        $(this).next().slideToggle();
-        $(this).parent().toggleClass('active-submenu');
-    });*/
 
 
     $(document).on('click', '.site-tabs-el a',  function() {

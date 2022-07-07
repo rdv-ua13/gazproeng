@@ -16,6 +16,7 @@ application.prototype.init = function () {
     this.initSliders();
     this.initTabs();
     this.setFilterTabsBehavior();
+    this.setTabLinkClick();
 }
 
 // Set navbar-toggler behavior js-lang-switcher
@@ -23,12 +24,6 @@ application.prototype.setNavbarTogglerBehavior = function () {
     if($(".js-navbar-toggler").length) {
         $(".js-navbar-toggler").on("click", function (e) {
             $(this).closest("body").toggleClass("overflow-hidden");
-            /*if (!$(this).closest("body").hasClass("overflow-hidden")) {
-                $(this).closest("body").addClass("overflow-hidden");
-            }
-            else if ($(this).closest("body").hasClass("overflow-hidden")) {
-                $(this).closest("body").removeClass("overflow-hidden");
-            }*/
         });
     }
 }
@@ -91,7 +86,6 @@ application.prototype.initBtnDropdown = function () {
 // Init "strategic-goal__header" behavior
 application.prototype.initStrategicGoal = function () {
     if ($(".js-strategic-goal-item").length) {
-        /*$(".strategic-goal__collapse").hide();*/
         $(".strategic-goal--dropdown .js-strategic-goal-item").on("click", function () {
             if(!$(this).hasClass("active")) {
                 $(this).addClass("active");
@@ -108,7 +102,8 @@ application.prototype.initSliders = function () {
     // Magazine slider
     if ($(".js-magazine-slider").length) {
         let magazineSliderSettings = {
-            slidesPerView: 4,
+            freeMode: true,
+            slidesPerView: "auto",
             spaceBetween: 20,
             navigation: {
                 nextEl: ".magazine .swiper-button-next",
@@ -121,9 +116,9 @@ application.prototype.initSliders = function () {
                 dynamicMainBullets: 7,
             },
             breakpoints: {
-                /*768: {
-                    slidesPerView: 2,
-                },*/
+                768: {
+                    freeMode: false,
+                }
             }
         };
         new Swiper(".js-magazine-slider", magazineSliderSettings);
@@ -146,6 +141,32 @@ application.prototype.initSliders = function () {
             },
         };
         new Swiper(".js-feedback-slider", feedbackSliderSettings);
+    }
+
+    // Slider inner__slider-menu
+    if ($('.js-tabmenu-slider').length) {
+        let tabmenuSliderSettings = {
+            /*initialSlide: -1,*/
+            slidesPerView: 'auto',
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.js-tabmenu-slider ~ .swiper-button-next',
+                prevEl: '.js-tabmenu-slider ~ .swiper-button-prev',
+            },
+        };
+        new Swiper(".js-tabmenu-slider", tabmenuSliderSettings);
+        /*function reinitSliderMenu() {
+            swiperSliderMenu = new Swiper('.js-slidermenu', {
+                slidesPerView: 'auto',
+                spaceBetween: 0,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        };
+        reinitSliderMenu();
+        $(window).on('resize', reinitSliderMenu);*/
     }
 
     // Clients slider
@@ -259,6 +280,25 @@ application.prototype.setFilterTabsBehavior = function () {
                 }
 
             });
+        });
+    }
+}
+// Set tabs behavior on click
+application.prototype.setTabLinkClick = function () {
+    if ($(".js-tab-link").length) {
+        $(".js-tab-link").on("click", function () {
+            let target = $(this).attr("data-rel");
+            if (!$(this).hasClass("active")) {
+                $(".js-tab-link").removeClass("active");
+                $(this).addClass("active");
+
+                $(".tabs .tabs__content-item").removeClass("d-block").addClass("d-none");
+                $("#" + target).removeClass("d-none").addClass("d-block");
+            } else {
+                $(this).removeClass("active");
+                $(".tabs .tabs__content-item").removeClass("d-none");
+                $(".tabs .tabs__content-item").removeClass("d-block");
+            }
         });
     }
 }
