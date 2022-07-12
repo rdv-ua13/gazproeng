@@ -10,25 +10,33 @@
 
     <div class="section-area">
         <div class="tabs">
-            <div class="block-mb tabs__header">
-                <div class="tabs__header-item-wrapper">
-                    <a class="tabs__header-item js-tab-link" href="javascript:;" data-rel="tab-1">Разрешительные документы</a>
-                </div>
-                <div class="tabs__header-item-wrapper">
-                    <a class="tabs__header-item js-tab-link" href="javascript:;" data-rel="tab-2">Отраслевая документация</a>
-                </div>
-                <div class="tabs__header-item-wrapper">
-                    <a class="tabs__header-item js-tab-link" href="javascript:;" data-rel="tab-3">Информация для субподрядчиков</a>
-                </div>
-                <div class="tabs__header-item-wrapper">
-                    <a class="tabs__header-item js-tab-link" href="javascript:;" data-rel="tab-4">Результаты проведения специальной оценки условий труда в Обществе</a>
-                </div>
-                <div class="tabs__header-item-wrapper">
-                    <a class="tabs__header-item js-tab-link" href="javascript:;" data-rel="tab-5">Реализация активов</a>
+            <div class="tabs__content-items-el docs-tabs-reverse tabs__header tabmenu-slider-wrapper">
+                <div class="swiper-container tabmenu-slider js-tabmenu-slider">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a class="tabs__header-item tabmenu-slider__link js-tab-link" href="javascript:;" data-rel="tab-1">Разрешительные документы</a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a class="tabs__header-item tabmenu-slider__link js-tab-link" href="javascript:;" data-rel="tab-2">Отраслевая документация</a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a class="tabs__header-item tabmenu-slider__link js-tab-link" href="javascript:;" data-rel="tab-3">Информация для субподрядчиков</a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a class="tabs__header-item tabmenu-slider__link js-tab-link" href="javascript:;" data-rel="tab-4">Результаты проведения специальной оценки условий труда в Обществе</a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a class="tabs__header-item tabmenu-slider__link js-tab-link" href="javascript:;" data-rel="tab-5">Реализация активов</a>
+                        </li>
+                    </ul>
+                    <div class="swiper-navigation">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="tab-content">
+            <div class="section-area-mbsm doc-section info-card-wrapper tabs__content">
                 <div class="tabs__content-item" id="tab-1">
                     <div class="doc-section">
                         <div class="doc-section-heading">Разрешительные документы</div>

@@ -8,14 +8,12 @@
     <div class="container-fluid container-lg">
 		<div class="row columned">
 			<div class="col col-12 block-mb">
-				<div class="img-h-xs">
-					<img src="/build/img/service-img4.jpg" alt="">
-				</div>
+                <img class="img img-small" src="/build/img/service-img4.jpg" alt="">
 			</div>
-			<div class="col col-6">
-				<h1 class="section-area__title">Разработка технологических объектов</h1>
+			<div class="col col-12 col-md-6 mb-4 mb-md-0">
+				<h1 class="h2 section-area__title">Разработка технологических объектов</h1>
 			</div>
-			<div class="col col-6">
+			<div class="col col-12 col-md-6">
 				<div class="h5-text text-block color-gray">
 					<p>Одним из основных направлений деятельности АО «Газпроектинжиниринг» является выполнение полного комплекса проектно-изыскательских работ по транспортировке и хранению природного газа, хранению нефтепродуктов</p>
 				</div>
@@ -140,7 +138,7 @@
 
 <div class="section-area">
     <div class="container-fluid container-lg">
-		<div class="outlined-aboutInfo">
+		<div class="framed-block bgi-single-block">
 			<div class="block-mb-text-big">
 				<h2 class="h2 title-mb-big">Реализованные проекты</h2>
 			</div>

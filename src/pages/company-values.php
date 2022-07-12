@@ -1,13 +1,17 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-	<div class="block-mb">
-		<h1 class="section-area__title">Ценности компании</h1>
+<div class="block-mb">
+    <div class="container-fluid container-lg">
+		<h1 class="h2 section-area__title">Ценности компании</h1>
 	</div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
 		<ul class="company-values">
 			<li>
 				<div class="company-values__header">

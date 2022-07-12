@@ -6,14 +6,14 @@
 
 <div class="section-area">
     <div class="container-fluid container-lg">
-		<div class="row columned">
+		<div class="row">
             <div class="col col-12 block-mb">
-                <img class="img-h-xs" src="/build/img/service-img1.jpg" alt="">
+                <img class="img img-small" src="/build/img/service-img1.jpg" alt="">
             </div>
-			<div class="col сol-12 col-md-6 mb-4 mb-md-0">
-				<h1 class="section-area__title">Архитектурно-строительное направление</h1>
+			<div class="col col-12 col-md-6 mb-4 mb-md-0">
+				<h1 class="h2 section-area__title">Архитектурно-строительное направление</h1>
 			</div>
-			<div class="col сol-12 col-md-6">
+			<div class="col col-12 col-md-6">
 				<div class="h5-text text-block color-gray">
 					<p>Накопленный десятилетиями мощный технический и интеллектуальный потенциал, внедрение современных технологий позволяют АО «Газпроектинжиниринг» проектировать сложнейшие многофункциональные производственные объекты и объекты гражданского строительства для постоянных партнёров и новых заказчиков</p>
 				</div>
@@ -99,7 +99,7 @@
 
 <div class="section-area">
     <div class="container-fluid container-lg">
-        <div class="outlined-aboutInfo">
+        <div class="framed-block bgi-single-block">
             <div class="block-mb-text-big">
                 <h2 class="h2 title-mb-big">Реализованные проекты</h2>
             </div>

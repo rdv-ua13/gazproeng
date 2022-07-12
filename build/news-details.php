@@ -8,7 +8,7 @@
 	<div class="container-small news-details">
         <div class="block-mb-text-big">
             <div class="news-details__view news-details__view--main">
-                <div class="news-details__view-content" style="background-image: url('/build/img/new-details-img1.jpg');">
+                <div class="news-details__view-content img-medium" style="background-image: url('/build/img/new-details-img1.jpg');">
                     <div class="news-details__view-dateplate dateplate">09.04.2021</div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
 
         <div class="block-mb-text">
             <div class="news-details__view news-details__view--caption">
-                <div class="news-details__view-content" style="background-image: url('/build/img/new-details-img2.jpg');"></div>
+                <div class="news-details__view-content img-medium" style="background-image: url('/build/img/new-details-img2.jpg');"></div>
                 <div class="news-details__view-caption">Любая необходимая подпись к изображению</div>
             </div>
         </div>

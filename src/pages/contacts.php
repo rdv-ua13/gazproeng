@@ -138,7 +138,6 @@
                     <div class="contact-element contact-element-white mb-0">
                        <div class="contact-element__label">Телефон</div>
                        <a href="tel:+78122443131" class="contact-element__content">+7 (495) 334-46-41</a>
-
                     </div>
 
                     <div class="contact-element contact-element-white mb-0">

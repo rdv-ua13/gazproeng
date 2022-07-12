@@ -1,16 +1,22 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
 	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-    <div class="block-header-control section-area__title">
-        <h1 class="block-header-control__title">Команда и карьера</h1>
-        <div class="block-header-control__action">
-            <a href="javascript:;" class="button-element" role="button">Смотреть вакансии на hh.ru</a>
+<div class="section-area__title">
+    <div class="container-fluid container-lg">
+        <div class="block-header-control">
+            <h1 class="block-header-control__title">Команда и карьера</h1>
+            <div class="block-header-control__action">
+                <a href="javascript:;" class="button-element" role="button">Смотреть вакансии на hh.ru</a>
+            </div>
         </div>
     </div>
+</div>
 
-	<div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="h4 title-mb color-blue">Компания АО «Газпроектинжиниринг» это:</div>
         <ul class="strategic-goal strategic-goal--fz-bigger">
             <li>
@@ -58,18 +64,22 @@
             </li>
         </ul>
 	</div>
+</div>
 
-	<div class="section-area">
-        <div class="cta-box cta-box-text-block">
+<div class="section-area">
+    <div class="container-fluid container-lg">
+        <div class="cta-box cta-box-text-block cta-minus-mx">
             <div class="cta-box-inner">
                 <div class="cta-box-text">Компания осуществляет техническую деятельность, являясь участником СРО Ассоциация «Инженер-Изыскатель», СРО Ассоциация «Инженер-Проектировщик», Ассоциации «СРО „ВГАСУ-строй“, в соответствии с лицензиями, действующими как на территории Российской Федерации, так и на территории Республики Беларусь, а также системой менеджмента качества, функционирующей на основе стандартов ИСО 9001:2015, СТО Газпром 9001–2018</div>
             </div>
         </div>
 	</div>
+</div>
 
-    <div class="section-area">
-        <div class="outlined-aboutInfo">
-            <h2 class="h2 title-mb color-blue">АО «Газпроектинжиниринг» сегодня…</h2>
+<div class="section-area">
+    <div class="container-fluid container-lg">
+        <div class="framed-block bgi-single-block">
+            <div class="h4 title-mb color-blue">АО «Газпроектинжиниринг» сегодня…</div>
             <div class="block-mb-text-big">
                 <div class="text-block h5-text">
                     <p>…это 22 кандидата наук, 1 доктор наук и более 1000 высококвалифицированных специалистов, способных решать задачи любой сложности в области предоставления инжиниринговых услуг.</p>
@@ -81,24 +91,28 @@
             <a href="javascript:;" class="button-element" role="button">Смотреть вакансии на&nbsp;hh.ru</a>
         </div>
     </div>
+</div>
 
-    <div class="section-area">
+<div class="section-area">
+    <div class="container-fluid container-lg">
         <div class="row">
-            <div class="col col-4">
+            <div class="col col-12 col-xl-4 mb-4 mb-xl-0">
                 <div class="h5-text text-block">
                     <p><b>Внутри Компании, в соответствии с рекомендациями Роспотребнадзора</b> по предотвращению распространения коронавирусной инфекции, были приняты все необходимые санитарные меры, организовано тестирование сотрудников, профилактика и назначение лечения заболевшим.</p>
                 </div>
             </div>
-            <div class="col col-8">
+            <div class="col col-12 col-xl-8">
                 <div class="h5-text text-block">
                     <p>В условиях современной действительности <b>становится максимально актуальной работа в удалённом формате</b>. А также работа гибридных проектных команд, когда часть сотрудников ведёт работу из офиса, а другие привлекаются дистанционно. По этой схеме в Компании уже функционирует управление информационных технологий и цифрового инжиниринга. <b>В ближайшем будущем планируется настроить подобное взаимодействие в производственных отделах</b>. Что позволит объединить в работе над общими проектами высококачественных профессионалов из разных точек страны.</p>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-	<div class="section-area">
-        <div class="cta-box cta-box-text-block">
+<div class="section-area">
+    <div class="container-fluid container-lg">
+        <div class="cta-box cta-box-text-block cta-minus-mx">
             <div class="cta-box-inner">
                 <div class="cta-box-text"><b>Успех Компании гарантирован надёжным фундаментом</b>, заложенным сотрудниками на этапе становления и последующего развития. С исключительным уважением и гордостью мы относимся к заслугам наших ветеранов, ценим их бесценный вклад в стабильное настоящее и устойчивое будущее.</div>
             </div>

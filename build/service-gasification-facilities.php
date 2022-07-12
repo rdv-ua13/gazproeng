@@ -8,16 +8,14 @@
     <div class="container-fluid container-lg">
 		<div class="row columned">
 			<div class="col col-12 block-mb">
-				<div class="img-h-xs">
-					<img src="/build/img/service-img2.jpg" alt="">
-				</div>
+                <img class="img img-small" src="/build/img/service-img2.jpg" alt="">
 			</div>
-			<div class="col col-6">
-				<h1 class="section-area__title">Проектирование объектов газификации</h1>
+			<div class="col col-12 col-md-6 mb-4 mb-md-0">
+				<h1 class="h2 section-area__title">Проектирование объектов газификации</h1>
 			</div>
-			<div class="col col-6">
+			<div class="col col-12 col-md-6">
 				<div class="h5-text text-block color-gray">
-					<p>В соответствии с Программой газификации регионов Российской Федерации АО «Газпроектинжиниринг» выполняет разработку проектов газоснабжение и газификации таких регионов, как Ленинградская, Калужская, Брянская, Воронежская, Ростовская, Волгоградская области, Краснодарский край, а также регионы Дальнего Востока  и о. Сахалин.</p>
+					<p>В соответствии с Программой газификации регионов Российской Федерации АО «Газпроектинжиниринг» выполняет разработку проектов газоснабжение и газификации таких регионов, как Ленинградская, Калужская, Брянская, Воронежская, Ростовская, Волгоградская области, Краснодарский край, а также регионы Дальнего Востока и о. Сахалин.</p>
 				</div>
 			</div>
 
@@ -92,7 +90,7 @@
 
 <div class="section-area">
     <div class="container-fluid container-lg">
-		<div class="outlined-aboutInfo">
+		<div class="framed-block bgi-single-block">
 			<div class="block-mb-text-big">
 				<h2 class="h2 title-mb-big">Реализованные проекты</h2>
 			</div>

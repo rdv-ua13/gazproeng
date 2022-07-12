@@ -1,11 +1,13 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
     <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
         <div class="row columned">
-            <div class="col col-6">
+            <div class="col col-12 col-md-6 mb-4 mb-md-0">
                 <div class="columned__heading">
                     <h1 class="section-area__title">Медицинский центр</h1>
                     <div class="text-block color-gray">
@@ -13,23 +15,27 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-6">
+            <div class="col col-12 col-md-6">
                 <div class="columned__view">
                     <img src="/build/img/med-img1.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
         <div class="h2 title-mb-big">Подробнее<br>о центре</div>
         <div class="h5-text text-block">
             <p>Консультативный приём ведут кандидаты наук, врачи I-ой и высшей категории с большим опытом работы. В состав медцентра входят: стоматологический, массажный, процедурный кабинет, кабинет иглорефлексотерапии, физиотерапии, рентген.</p>
             <p>Особое внимание уделяется восстановительному лечению, профилактике и реабилитации хронических заболеваний. В Медцентре широко применяется физиотерапевтическое лечение (ультразвук, лазеро и магнитотерапия, светолечение, электрофорез и др.) Кроме основного набора аппаратов, в кабинете физиотерапии имеются криосауна, сухая углекислая ванна «Реабокс», подводный душ-массаж, прессотерапия, ударно-волновая терапия PiezoWave, плазмалифтинг, озонотерапия, аппаратный массаж глаз.</p>
         </div>
     </div>
+</div>
 
-    <div class="block-mb">
+<div class="block-mb">
+    <div class="container-fluid container-lg">
         <div class="framed-block--small bgi-single-block">
             <div class="h4 title-mb">Проводится широкий спектр<br>функциональных исследований:</div>
 
@@ -88,10 +94,10 @@
 
             <div class="med-services">
                 <div class="row">
-                    <div class="col col-6">
-                        <div class="h4">Контактный<br>телефон</div>
+                    <div class="col col-12 col-md-4 col-lg-6">
+                        <div class="h4">Контактный <br class="d-none d-md-block">телефон</div>
                     </div>
-                    <div class="col col-6 med-services__contacts">
+                    <div class="col col-12 col-md-8 col-lg-6 med-services__contacts">
                         <div class="med-services__contacts-item">
                             <div class="text-title-small color-blue">Основной</div>
                             <div class="h4.5">+7 (473) 222-90-09</div>
@@ -103,10 +109,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/footer.php'); ?>

@@ -19,7 +19,7 @@
 <div class="section-area">
     <div class="container-fluid container-lg">
 		<div class="row linked-card">
-            <div class="col col-4">
+            <div class="col col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="linked-card__item" style="background-image: url('/build/img/soc-response-img1.jpg')">
                     <div class="linked-card__content">
                         <div class="h3 linked-card__title">Медицинский<br>центр</div>
@@ -28,6 +28,7 @@
                         </div>
                         <div class="linked-card__more">
                             <a href="javascript:;">
+                                <span>Подробнее</span>
                                 <svg class="icon rotate-right">
                                     <use href="/build/img/sprite.svg#arrow-rtl"></use>
                                 </svg>
@@ -36,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-4">
+            <div class="col col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
                 <div class="linked-card__item" style="background-image: url('/build/img/soc-response-img2.jpg')">
                     <div class="linked-card__content">
                         <div class="h3 linked-card__title">База отдыха<br>«Иволга»</div>
@@ -45,6 +46,7 @@
                         </div>
                         <div class="linked-card__more">
                             <a href="javascript:;">
+                                <span>Подробнее</span>
                                 <svg class="icon rotate-right">
                                     <use href="/build/img/sprite.svg#arrow-rtl"></use>
                                 </svg>
@@ -53,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-4">
+            <div class="col col-12 col-lg-4">
                 <div class="linked-card__item" style="background-image: url('/build/img/soc-response-img3.jpg')">
                     <div class="linked-card__content">
                         <div class="h3 linked-card__title">Cпортивный<br>комплекс</div>
@@ -62,6 +64,7 @@
                         </div>
                         <div class="linked-card__more">
                             <a href="javascript:;">
+                                <span>Подробнее</span>
                                 <svg class="icon rotate-right">
                                     <use href="/build/img/sprite.svg#arrow-rtl"></use>
                                 </svg>
@@ -165,7 +168,7 @@
 <div class="section-area">
     <div class="container-fluid container-lg">
         <div class="row columned">
-            <div class="col col-6">
+            <div class="col col-12 col-lg-6 mb-4 mb-lg-0">
                 <div class="columned__heading">
                     <div class="h2 title-mb-big">Медицинский центр</div>
                     <div class="text-block">
@@ -173,9 +176,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-6">
+            <div class="col col-12 col-lg-6">
                 <div class="columned__view">
-                    <img class="img-h-md" src="/build/img/med-img2.jpg" alt="">
+                    <img class="img img-medium" src="/build/img/med-img2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -185,29 +188,29 @@
 <div class="section-area">
     <div class="container-fluid container-lg">
         <div class="row columned">
-            <div class="col col-5 mb-5">
+            <div class="col col-12 col-lg-5 mb-4 mb-lg-5 order-1 order-lg-0">
                 <div class="columned__heading">
-                    <div class="h2 title-mb-big">База отдыха «Иволга»</div>
+                    <div class="h2">База отдыха «Иволга»</div>
                 </div>
             </div>
-            <div class="col col-7 mb-5">
+            <div class="col col-12 col-lg-7 mb-4 mb-lg-5 order-2 order-lg-0">
                 <div class="text-block color-gray">
                     <p>«Иволга» находится в Рамонском районе Воронежской области в 35 километрах от областного центра, в живописном лесном массиве Графского заповедника, недалеко от устья реки Усманки</p>
                 </div>
             </div>
-            <div class="col col-12 mb-4">
-                <img class="img-h-md" src="/build/img/soc-response-img4.jpg" alt="">
+            <div class="col col-12 mb-4 order-3 order-lg-0">
+                <img class="img img-big" src="/build/img/soc-response-img4.jpg" alt="">
             </div>
-            <div class="col col-7">
-                <img class="img-h-sm" src="/build/img/soc-response-img5.jpg" alt="">
+            <div class="col col-12 col-lg-7 order-5 order-lg-0">
+                <img class="img img-medium" src="/build/img/soc-response-img5.jpg" alt="">
             </div>
-            <div class="col col-5">
-                <div class="py-4 pl-4">
+            <div class="col col-12 col-lg-5 mb-4 mb-lg-0 order-4 order-lg-0">
+                <div class="p-0 py-lg-4 pl-lg-4">
                     <div class="h4 title-mb-big color-blue">«Иволга» это…</div>
                     <div class="block-mb-text-big text-block">
                         <p>Уникальный природный комплекс с богатейшим разнообразием растительного и животного мира. Воспользоваться услугами базы «Иволга» могут не только работники АО «Газпроектинжиниринг», но и все желающие — любители тихого, семейного отдыха.</p>
                     </div>
-                    <div class="logo-block">
+                    <div class="logo-block d-none d-lg-block">
                         <svg class="icon">
                             <use href="/build/img/sprite.svg#logo"></use>
                         </svg>
@@ -220,11 +223,11 @@
 
 <div class="section-area">
     <div class="container-fluid container-lg">
-        <div class="row columned">
-            <div class="col col-4 mb-5">
-                <div class="h2 title-mb-big">Спортивный<br>комплекс</div>
+        <div class="row">
+            <div class="col col-12 col-lg-4 mb-4 mb-lg-5 order-1 order-md-0">
+                <div class="h2">Спортивный <br class="d-none d-lg-block">комплекс</div>
             </div>
-            <div class="col col-8 mb-5">
+            <div class="col col-12 col-lg-8 mb-4 mb-lg-5 order-2 order-md-0">
                 <div class="text-block h5-text">
                     <p>В инфрастуктуру предприятия входит многофункциональный спортивный комплекс. Это
                         современная универсальная площадка, на которой возможно проведение соревнований
@@ -234,11 +237,11 @@
                         теннисом.</p>
                 </div>
             </div>
-            <div class="col col-4 mb-5">
-                <img class="img-h-xs" src="/build/img/soc-response-img6.jpg" alt="">
+            <div class="col col-12 col-md-4 order-4 order-md-0">
+                <img class="img img-small" src="/build/img/soc-response-img6.jpg" alt="">
             </div>
-            <div class="col col-8 mb-5">
-                <img class="img-h-xs" src="/build/img/soc-response-img7.jpg" alt="">
+            <div class="col col-12 col-md-8 mb-4 mb-md-0 order-3 order-md-0">
+                <img class="img img-small" src="/build/img/soc-response-img7.jpg" alt="">
             </div>
         </div>
     </div>
