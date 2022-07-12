@@ -140,63 +140,6 @@
                     </div>
                 </div>
             </div>
-
-			<?/*<div class="main-partners__item framed-block--small">
-                <div class="h4 title-mb color-blue">ПАО «Газпром»</div>
-                <div class="text-block">
-                    <p>В сотрудничестве с ПАО «Газпром» ведётся масштабная работа по развитию систем газоснабжения и газификации регионов Российской Федерации. АО «Газпроектинжиниринг» является ведущей проектной организацией ПАО «Газпром» по системам безопасности. При участии специалистов компании разработано и внедрено более 1500 проектов по системам безопасности на объектах Группы копаний Газпром.</p>
-                </div>
-            </div>*/?>
-			<?/*<div class="main-partners__item w-100">
-                <div class="cta-box cta-box-text-block">
-                    <div class="cta-box-inner">
-                        <div class="cta-box-text">В процессе развития ИТ-технологий и инноваций в целях автоматизации процессов проектирования и управления для повышения качества выпускаемой продукции Компания приняла участие в проектировании Амурского газохимического комплекса «Амурский ГХК», строительство которого ПАО «СИБУР» начало в 2020 году</div>
-                    </div>
-                </div>
-            </div>*/?>
-            <?/*<div class="main-partners__item w-100 framed-block--small">
-                <div class="h4 title-mb color-blue">«Сахалин Энерджи Инвестмент Компани Лтд.»</div>
-                <div class="text-block">
-                    <p>В рамках оказания инжиниринговых услуг на территории Сахалинской области АО «Газпроектинжиниринг» расширяет сотрудничество с нефтегазовыми добывающими и сервисными компаниями, одним из ключевых партнёров является «Сахалин Энерджи Инвестмент Компани Лтд»</p>
-                    <div class="block-mb-text-small">
-                        <p>Основными направлениями деятельности являются:</p>
-                    </div>
-                </div>
-                <ul class="strategic-goal">
-                    <li>
-                        <button class="js-strategic-goal-item">
-                            <div class="strategic-goal__header">
-                                <span class="strategic-goal__header-num">01</span>
-                                <span class="strategic-goal__header-content">Разработка проектной и рабочей документации на инфраструктурных, архитектурно-строительных и технологических объектах</span>
-                            </div>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="js-strategic-goal-item">
-                            <div class="strategic-goal__header">
-                                <span class="strategic-goal__header-num">02</span>
-                                <span class="strategic-goal__header-content">Сопровождение строительства ДКС ОБТК проекта «Сахалин-2»</span>
-                            </div>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="js-strategic-goal-item">
-                            <div class="strategic-goal__header">
-                                <span class="strategic-goal__header-num">03</span>
-                                <span class="strategic-goal__header-content">Научно-техническое сопровождение проектов по разработке месторождений углеводородного сырья на шельфе о.Сахалин, Охотского и Японского морей</span>
-                            </div>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="js-strategic-goal-item">
-                            <div class="strategic-goal__header">
-                                <span class="strategic-goal__header-num">04</span>
-                                <span class="strategic-goal__header-content">Подготовка к заключению Контракта на оказание услуг по инженерно-техническому сопровождению проектов модификации производства на объектах «Сахалин Энерджи»</span>
-                            </div>
-                        </button>
-                    </li>
-                </ul>
-            </div>*/?>
         </div>
 	</div>
 </div>
