@@ -9,8 +9,46 @@
 	& img {
 		min-width: 100%;
 		width: 100%;
-		min-height: 42px;
-		height: 42px;
+	}
+}
+@media (min-width: 575.98px) {
+	.footer-logo {
+		& img {
+			min-height: 36px;
+			max-height: 52px;
+		}
+	}
+}
+@media (min-width: 576px) and (min-width: 767.98px) {
+	.footer-logo {
+		& img {
+			min-height: 42px;
+			height: 42px;
+		}
+	}
+}
+@media (min-width: 768px) and (min-width: 991.98px) {
+	.footer-logo {
+		& img {
+			min-height: 42px;
+			height: 42px;
+		}
+	}
+}
+@media (min-width: 992px) and (min-width: 1199.98px) {
+	.footer-logo {
+		& img {
+			min-height: 58px;
+			height: 58px;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.footer-logo {
+		& img {
+			min-height: 69px;
+			height: 69px;
+		}
 	}
 }
 footer {

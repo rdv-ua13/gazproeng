@@ -98,7 +98,10 @@
                 <a href="/build/index.php" target="_blank">Главная [адаптив (кроме Карты)]</a> -
                 <a class="color-green" href="http://1251.8up.ru/" target="_blank">[backend по ссылке]</a>
             </li>
-            <li><a href="/build/about.php" target="_blank">О нас [адаптив]</a></li>
+            <li>
+                <a href="/build/about.php" target="_blank">О нас [адаптив]</a> -
+                <a class="color-green" href="http://1251.8up.ru/company/about/" target="_blank">[backend по ссылке]</a>
+            </li>
             <li>
                 <a href="/build/contacts.php" target="_blank">Контакты [адаптив]</a> -
                 <a class="color-green" href="http://1251.8up.ru/contacts/" target="_blank">[backend по ссылке]</a>
@@ -125,7 +128,10 @@
                 <a href="/build/magazine.php" target="_blank">Корпоративный журнал [адаптив (layout fixes)]</a> -
                 <a class="color-green" href="http://1251.8up.ru/company/magazine/" target="_blank">[backend по ссылке]</a>
             </li>
-            <li><a href="/build/clients.php" target="_blank">Наши заказчики [адаптив (кроме Карты, Слайдер Награды)]</a></li>
+            <li>
+                <a href="/build/clients.php" target="_blank">Наши заказчики [адаптив (кроме Карты, Слайдер Награды)]</a> -
+                <a class="color-green" href="http://1251.8up.ru/company/clients/" target="_blank">[backend по ссылке]</a>
+            </li>
             <li>
                 <a href="/build/nature-protection.php" target="_blank">Охрана природы [адаптив (layout fixes)]</a> -
                 <a class="color-green" href="http://1251.8up.ru/company/nature/" target="_blank">[backend по ссылке]</a>
@@ -154,12 +160,18 @@
                 <a href="/build/search-query.php" target="_blank">Поиск - запрос [адаптив (layout fixes)]</a> -
                 <a class="color-green" href="http://1251.8up.ru/search/?q=%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C+%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82&how=r" target="_blank">[backend по ссылке]</a>
             </li>
-            <li><a href="/build/med-center.php" target="_blank">Медицинский центр [адаптив (layout fixes)]</a></li>
+            <li>
+                <a href="/build/med-center.php" target="_blank">Медицинский центр [адаптив (layout fixes)]</a> -
+                <a class="color-green" href="http://1251.8up.ru/social/med/" target="_blank">[backend по ссылке]</a>
+            </li>
             <li>
                 <a href="/build/partners.php" target="_blank">Акционерам и инвесторам [адаптив (layout fixes)] - (end sldrs btns)</a> -
                 <a class="color-green" href="http://1251.8up.ru/investors/" target="_blank">[backend по ссылке]</a>
             </li>
-            <li><a href="/build/social-responsibility.php" target="_blank">Cоциальные ответственность [адаптив (layout fixes)]</a></li>
+            <li>
+                <a href="/build/social-responsibility.php" target="_blank">Cоциальные ответственность [адаптив (layout fixes)]</a> -
+                <a class="color-green" href="http://1251.8up.ru/social/" target="_blank">[backend по ссылке]</a>
+            </li>
             <li>
                 <a href="/build/company-values.php" target="_blank">Ценности компании [адаптив (layout fixes)]</a> -
                 <a class="color-green" href="http://1251.8up.ru/company/worth/" target="_blank">[backend по ссылке]</a>

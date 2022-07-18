@@ -17,6 +17,9 @@ application.prototype.init = function () {
     this.initTabs();
     this.setFilterTabsBehavior();
     this.setTabLinkClick();
+    this.initContactsMap();
+    this.initSvgMap();
+    this.initClickOnPin();
 }
 
 // Set navbar-toggler behavior js-lang-switcher
@@ -267,7 +270,6 @@ application.prototype.initSliders = function () {
         };
         breakpoint.addListener(breakpointChecker);
         breakpointChecker();
-
     }
 }
 // Init tabs
@@ -331,3 +333,177 @@ application.prototype.setTabLinkClick = function () {
         });
     }
 }
+// Init contacts map
+application.prototype.initContactsMap = function () {
+    if ($("#mapId").length) {
+        ymaps.ready(function () {
+            // map 1
+            var myMap = new ymaps.Map('mapId', {
+                    center: [51.673902, 39.253225],
+                    zoom: 16,
+                    controls: []
+                }),
+
+                myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                    balloonContent: '394007, Россия, г. Воронеж, Ленинский проспект, дом 119'
+                }, {
+                    iconLayout: 'default#image',
+                    iconImageHref: '/build/img/placemark-map.png',
+                    iconImageSize: [27, 40],
+                    iconImageOffset: [-5, -38]
+                });
+
+            myMap.controls.add('zoomControl');
+            myMap.behaviors.disable('multiTouch');
+
+            myMap.geoObjects.add(myPlacemark);
+            // map 1.end
+
+            // map 2
+            var map = new ymaps.Map('unitMap', {
+                center: [55.653822, 37.540057],
+                zoom: 14,
+                controls: ['zoomControl']
+            });
+
+            map.behaviors.disable('scrollZoom');
+            map.behaviors.disable('multiTouch');
+            // map.behaviors.disable('drag');
+
+            var myPlacemark1 = new ymaps.Placemark([55.653822, 37.540057]);
+            var myPlacemark2 = new ymaps.Placemark([56.311172, 43.996797]);
+            var myPlacemark3 = new ymaps.Placemark([58.229197, 68.274827]);
+            var myPlacemark4 = new ymaps.Placemark([45.051959, 41.995916]);
+            var myPlacemark5 = new ymaps.Placemark([56.473043, 84.968553]);
+            var myPlacemark6 = new ymaps.Placemark([53.944368, 27.609747]);
+            var myPlacemark7 = new ymaps.Placemark([47.230456, 39.760917]);
+            var myPlacemark8 = new ymaps.Placemark([59.825656, 30.326163]);
+            map.geoObjects.add(myPlacemark1);
+            map.geoObjects.add(myPlacemark2);
+            map.geoObjects.add(myPlacemark3);
+            map.geoObjects.add(myPlacemark4);
+            map.geoObjects.add(myPlacemark5);
+            map.geoObjects.add(myPlacemark6);
+            map.geoObjects.add(myPlacemark7);
+            map.geoObjects.add(myPlacemark8);
+
+            $(document).on("click", "[data-map-id='1']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark1.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+
+            $(document).on("click", "[data-map-id='2']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark2.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+
+            $(document).on("click", "[data-map-id='3']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark3.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+
+            $(document).on("click", "[data-map-id='4']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark4.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+
+            $(document).on("click", "[data-map-id='5']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark5.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+
+            $(document).on("click", "[data-map-id='6']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark6.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+
+            $(document).on("click", "[data-map-id='7']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark7.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+
+            $(document).on("click", "[data-map-id='8']", function (e) {
+                e.stopPropagation();
+                map.panTo([myPlacemark8.geometry.getCoordinates()], {delay: 0, flying: true }).then(function() {map.setZoom(15); });
+            });
+            // map 2.end
+        });
+    }
+}
+// Init svg map
+application.prototype.initSvgMap = function () {
+    if ($("#vmap").length) {
+        jQuery('#vmap').vectorMap({
+            map: 'russia_en',
+            enableZoom: false,
+            backgroundColor: null,
+            color: '#FFF',
+            hoverColor: '#06416A',
+            borderColor: '#F2F2F2',
+            borderOpacity: 1,
+            borderWidth: 1,
+            selectedColor: '#06416A',
+            showTooltip: true,
+            selectedRegions: ["kr", "ro"],
+            onRegionClick: function(element, code, region){
+                element.preventDefault();
+            }
+        });
+
+        $(window).on("load resize",function(){
+            var winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            $(".vmap-wrapper").mCustomScrollbar({
+                axis:"x",
+                autoDraggerLength: true,
+                scrollbarPosition: "inside",
+                theme:"dark-2",
+                documentTouchScroll: true,
+                moveDragger: true,
+                scrollInertia: 0,
+                mouseWheel: {
+                    enable: false
+                }
+            });
+        });
+    }
+}
+// Init click on map's pin
+application.prototype.initClickOnPin = function () {
+    if ($("#vmap").length) {
+        let currentEl = null,
+            popupSlider = null;
+
+        $(".vmap-pin").on("click", function () {
+            currentEl = $(this).data("id");
+
+            if (!$(this).hasClass("active")) {
+                $(".vmap-pin").not(this).removeClass("active");
+                $(this).addClass("active");
+                popupSlider = new Swiper(".vmap-pin[data-id='" + currentEl + "'] .swiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    navigation: {
+                        nextEl: ".vmap-pin[data-id='" + currentEl + "'] .swiper-button-next",
+                        prevEl: ".vmap-pin[data-id='" + currentEl + "'] .swiper-button-prev",
+                    },
+                    pagination: {
+                        el: ".vmap-pin[data-id='" + currentEl + "'] .swiper-pagination",
+                        clickable: true,
+                        dynamicBullets: true,
+                        dynamicMainBullets: 4,
+                    }
+                });
+            }
+        });
+
+        $(document).on("click", function (e) {
+            if (!$(".vmap-pin").is(e.target) && $(".vmap-pin").has(e.target).length === 0) {
+                currentEl = null;
+                popupSlider.destroy( true, true );
+                $(".vmap-pin").removeClass("active");
+            }
+        });
+    }
+}
+
+

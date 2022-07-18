@@ -14,100 +14,98 @@
 </div>
 
 <div class="section-area">
-    <div class="container-fluid container-lg">
-		<div class="block-mb-text clients-slider js-clients-slider" dir="rtl">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img1.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img2.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img3.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img4.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img5.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img6.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img7.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img8.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img9.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img10.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img11.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img12.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img13.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img14.png" alt="">
-                </div>
+    <div class="block-mb-text clients-slider js-clients-slider" dir="rtl">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img1.png" alt="">
             </div>
-		</div>
-        <div class="clients-slider js-clients-slider" dir="ltr">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img1.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img2.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img3.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img4.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img5.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img6.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img7.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img8.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img9.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img10.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img11.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img12.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img13.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/build/img/clients-img14.png" alt="">
-                </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img4.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img5.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img6.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img7.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img8.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img9.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img10.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img11.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img12.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img13.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img14.png" alt="">
             </div>
         </div>
-	</div>
+    </div>
+    <div class="clients-slider js-clients-slider" dir="ltr">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img4.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img5.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img6.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img7.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img8.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img9.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img10.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img11.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img12.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img13.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/build/img/clients-img14.png" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="section-area">
@@ -402,8 +400,104 @@
 </div>
 
 <div class="section-area">
-    <div class="container-fluid container-lg">
-        map
+    <div class="country-map">
+        <div class="vmap-wrapper">
+            <div id="vmap" class="vmap"></div>
+            <div class="vmap-pins">
+                <div class="vmap-pin" data-id="1" style="top: 35%; left: 50%;">
+                    <div class="vmap-pin__view">
+                        <svg class="vmap-pin__icon">
+                            <use href="/build/img/sprite.svg#logo"></use>
+                        </svg>
+                    </div>
+                    <div class="map-content-box">
+                        <div class="map-content-box__inner">
+                            <div class="map-content-box__image swiper swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="map-content-box__title">Длинное название объекта</div>
+                            <div class="map-content-box__caption">Краткое описание этого самого объекта в 2 небольшие строчки текста</div>
+                            <div class="map-content-box__place">Омск, Бульвар победы, 763\4</div>
+                        </div>
+
+                        <div class="map-content-box__bottom">
+                            <div class="arrow-btn swiper-button-prev"></div>
+
+                            <div class="pagination_map swiper-pagination"></div>
+
+                            <div class="arrow-btn swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vmap-pin" data-id="2" style="top: 49.5%; left: 14.25%;">
+                    <div class="vmap-pin__view">
+                        <svg class="vmap-pin__icon">
+                            <use href="/build/img/sprite.svg#logo"></use>
+                        </svg>
+                    </div>
+                    <div class="map-content-box">
+                        <div class="map-content-box__inner">
+                            <div class="map-content-box__image swiper swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
+                                            <img src="/build/img/map-img.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="map-content-box__title">Длинное название объекта</div>
+                            <div class="map-content-box__caption">Краткое описание этого самого объекта в 2 небольшие строчки текста</div>
+                            <div class="map-content-box__place">Омск, Бульвар победы, 763\4</div>
+                        </div>
+
+                        <div class="map-content-box__bottom">
+                            <div class="arrow-btn swiper-button-prev"></div>
+
+                            <div class="pagination_map swiper-pagination"></div>
+
+                            <div class="arrow-btn swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

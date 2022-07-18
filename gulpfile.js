@@ -76,6 +76,8 @@ gulp.task("vendorsCss:build", function () {
         "node_modules/swiper/swiper-bundle.min.css",
         "node_modules/flatpickr/dist/flatpickr.min.css",
         "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css",
+        "node_modules/jqvmap/dist/jqvmap.css",
+        "node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"
     ])
         .pipe(concat("vendors.css"))
         .pipe(plumber())
@@ -125,6 +127,9 @@ gulp.task("libsJs:build", function () {
     'node_modules/flatpickr/dist/l10n/ru.js',
     'node_modules/html5shiv/dist/html5shiv.js',
     'node_modules/@benefex/respond.js/dest/respond.min.js',
+    'node_modules/jqvmap/dist/jquery.vmap.min.js',
+    'node_modules/jqvmap/dist/maps/jquery.vmap.russia.js',
+    'node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js'
   ])
     .pipe(concat("libs.min.js"))
     /*.pipe(sourcemaps.init())*/
