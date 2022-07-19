@@ -264,7 +264,7 @@
     </div>
 </div>
 
-<div class="section-area Unitsearch-section-area">
+<div class="section-area">
   <div class="container-fluid container-lg">
       <div class="block-mb">
           <div class="h2 section-area__title">Заместители<br>генерального директора</div>

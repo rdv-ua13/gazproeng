@@ -1,8 +1,10 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
   <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
+<div class="container-fluid container-lg">
   <h1 class="section-area__title">Наша история</h1>
   <div class="site-caption dark-caption">За полувековую историю существования нынешнее акционерное общество «Газпроектинжиниринг» прошло путь от проектно-конструкторского отдела до крупной в масштабах России проектной компании</div>
 </div>
@@ -207,7 +209,7 @@
       </div>
 
     <div class="timeline-bottom">
-        <div class="container">
+        <div class="container-fluid container-lg">
             <div class="timeline-bottom-inner">
                 <div class="timeline-bottom-slider swiper">
                     <div class="swiper-wrapper">
@@ -267,7 +269,7 @@
 </div>
 
 <div class="section-area exec-section-area" id="prev-execs">
-  <div class="container">
+    <div class="container-fluid container-lg">
       <div class="block-mb">
           <div class="h2 section-area__title">Предыдущие руководители</div>
       </div>

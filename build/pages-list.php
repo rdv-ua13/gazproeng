@@ -89,13 +89,9 @@
     </div>
 
     <div>
-        <?/*ВЕЗДЕ ПОМЕНЯТЬ КОНТЕЙНЕРЫ!!!
-
-            ВЕЗДЕ ПОМЕНЯТЬ ТАБЫ В СЛАЙДЕР!!!
-        */?>
         <ol>
             <li>
-                <a href="/build/index.php" target="_blank">Главная [адаптив (кроме Карты)]</a> -
+                <a href="/build/index.php" target="_blank">Главная</a> -
                 <a class="color-green" href="http://1251.8up.ru/" target="_blank">[backend по ссылке]</a>
             </li>
             <li>

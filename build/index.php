@@ -72,7 +72,7 @@
 </div>
 
 <div class="section-area">
-    <div class="container">
+    <div class="container-fluid container-lg">
         <div class="block-mb">
             <div class="h2 section-area__title text-center">Виды деятельности</div>
             <div class="section-area__subtitle text-center">АО «Газпроектинжиниринг» успешно выполняет как типовые, так и уникальные и особо сложные проекты</div>
@@ -186,7 +186,7 @@
 </div>
 
 <div class="section-area">
-    <div class="container">
+    <div class="container-fluid container-lg">
         <div class="h2 section-area__title text-center">Карта объектов</div>
         <div class="section-area__subtitle text-center">Ознакомьтесь с уже реализованными проектами.</div>
     </div>
@@ -293,7 +293,7 @@
 </div>
 
 <div class="section-area">
-    <div class="container">
+    <div class="container-fluid container-lg">
         <div class="block-mb">
             <div class="h2 section-area__title text-center">Последние новости</div>
         </div>

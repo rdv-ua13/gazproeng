@@ -1,8 +1,10 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/header.php'); ?>
 
-<div class="container">
+<div class="container-fluid container-lg">
     <?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/breadcrumbs.php'); ?>
+</div>
 
+<div class="container-fluid container-lg">
     <div class="block-mb">
         <h1 class="section-area__title">Документы</h1>
         <div class="site-caption dark-caption">Пакет документов (разрешений), на основании которых АО «Газпроектинжиниринг» осуществляет свою деятельность</div>

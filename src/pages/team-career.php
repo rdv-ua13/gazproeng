@@ -7,7 +7,7 @@
 <div class="section-area__title">
     <div class="container-fluid container-lg">
         <div class="block-header-control">
-            <h1 class="block-header-control__title">Команда и карьера</h1>
+            <h1 class="block-header-control__title mb-4 mb-md-0">Команда и карьера</h1>
             <div class="block-header-control__action">
                 <a href="javascript:;" class="button-element" role="button">Смотреть вакансии на hh.ru</a>
             </div>
