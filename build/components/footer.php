@@ -1,40 +1,41 @@
         </main>
 
         <div class="pre-footer">
-            <div class="container">
+            <div class="container-fluid container-lg">
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-12 footer-logo-col">
-                        <a href="javascript:;" class="footer-logo"><img src="/build/img/footer-logo.png" class="img-fluid" alt=""></a>
+                    <div class="col col-3 col-md-6 footer-logo-col">
+                        <a class="footer-logo" href="javascript:;">
+                            <svg class="icon">
+                                <use href="/build/img/sprite.svg#logo"></use>
+                            </svg>
+                            <svg class="icon-text">
+                                <use href="/build/img/sprite.svg#logo-text"></use>
+                            </svg>
+                        </a>
                     </div>
 
-                    <div class="col-md-6 col-12 d-flex flex-md-row flex-column justify-content-end">
-
+                    <div class="col col-9 col-md-6 d-flex justify-content-end">
                         <div class="t-bar-box">
                             <div class="footer-search">
                                 <input type="text" class="t-bar-element" placeholder="Поиск">
                             </div>
                         </div>
 
-                        <div class="t-bar-box">
-                            <div class="t-bar-element dropdown--menu">
-                                <a href="javascript:;">RUS</a>
-                                <ul>
-                                    <li><a href="javascript:;">Русский</a></li>
-                                    <li><a href="javascript:;">English</a></li>
-                                </ul>
-                            </div>
+                        <div class="t-bar-box lang-switcher js-lang-switcher">
+                            <a class="lang-switcher-link" href="javascript:;">RU</a>
+                            <ul class="lang-switcher-dropdown-menu">
+                                <li><a href="/" data-abbr="RU">Русский</a></li>
+                                <li><a href="/en/" data-abbr="ENG">English</a></li>
+                            </ul>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
 
         <footer>
-            <div class="container">
-
+            <div class="container-fluid container-lg">
                 <div class="row">
-
                     <div class="col-lg-2 col-md-4 col-6 footer-col">
                         <div class="footer-nav-heading">КОМПАНИЯ</div>
                         <ul>
@@ -78,8 +79,6 @@
                         </ul>
                     </div>
 
-
-
                     <div class="col-lg-3 col-md-4 col-6 footer-col">
                         <div class="footer-nav-heading">Социальная ответственность</div>
                         <ul>
@@ -91,8 +90,6 @@
                             <li><a href="javascript:;">Корпоративный журнал</a></li>
                         </ul>
                     </div>
-
-
 
                     <div class="col-lg-2 col-md-4 col-12 footer-col">
                         <div class="footer-nav-heading">Контакты</div>
@@ -106,15 +103,11 @@
 
                         <a href="javascript:;" class="link-el mt-4">Юбилей — 50 лет <i class="link-icon"></i></a>
                     </div>
-
-
                 </div>
-
             </div>
 
             <div class="footer-bottom">
-                <div class="container">
-
+                <div class="container-fluid container-lg">
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <span class="copyright">© АО «Газпроектинжиниринг» 2011 - 2022</span>
@@ -123,10 +116,8 @@
                             <a href="javascript:;" class="policy-link">Политика конфиденциальности</a>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </footer>
     </div>
 
