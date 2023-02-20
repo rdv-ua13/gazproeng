@@ -92,7 +92,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/АГРС «Мужукай». Бабаюртовский район, Республика Дагестан.jpg" alt="Реконструкция ГРС «Мужукай»">
+                                    <img src="/build/img/rekonstruktsiya-grs-muzhukay.jpeg" alt="Реконструкция ГРС «Мужукай»">
                                 </div>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/Амурский ГХК.jpg" alt="Амурский ГХК">
+                                    <img src="/build/img/amurskiy-gkhk.jpeg" alt="Амурский ГХК">
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/Арбузовское ПХГ.jpg" alt="Арбузовское ПХГ">
+                                    <img src="/build/img/arbuzovskoe-pkhg.jpeg" alt="Арбузовское ПХГ">
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/Глебовсое ПХГ.jpg" alt="Реконструкция Глебовского ПХГ">
+                                    <img src="/build/img/rekonstruktsiya-glebovskogo-pkhg.jpeg" alt="Реконструкция Глебовского ПХГ">
                                 </div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/ГРС-7.jpg" alt="Разработка проектной и рабочей документации по проекту «Реконструкция ГРС-7 Саратов»">
+                                    <img src="/build/img/rekonstruktsiya-grs-7-saratov.jpeg" alt="Разработка проектной и рабочей документации по проекту «Реконструкция ГРС-7 Саратов»">
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/ДКС 1,2 с их сайта.jpg" alt="Реконструкция ДКС-1, 2 на Оренбургском НГКМ">
+                                    <img src="/build/img/rekonstruktsiya-dks-1-2-na-orenburgskom-ngkm.png" alt="Реконструкция ДКС-1, 2 на Оренбургском НГКМ">
                                 </div>
                             </div>
                         </div>
@@ -231,7 +231,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/Сахалинская Энергия.jpg" alt="Реконструкция и расширение офисного административного здания ООО «Сахалинская Энергия»">
+                                    <img src="/build/img/rekonstruktsiya-i-rasshirenie-ofisnogo-administrativnogo-zdaniya-sakhalin-enerdzhi-investment-kompan.jpeg" alt="Реконструкция и расширение офисного административного здания ООО «Сахалинская Энергия»">
                                 </div>
                             </div>
                         </div>
@@ -254,7 +254,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/Касимовское ПХГ.jpg" alt="Расширение Касимовского ПХГ">
+                                    <img src="/build/img/rasshirenie-kasimovskogo-pkhg.jpeg" alt="Расширение Касимовского ПХГ">
                                 </div>
                             </div>
                         </div>
@@ -277,7 +277,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/кс краснодарского пхг.jpg" alt="КС Краснодарского ПХГ">
+                                    <img src="/build/img/ks-krasnodarskogo-pkhg.jpeg" alt="КС Краснодарского ПХГ">
                                 </div>
                             </div>
                         </div>
@@ -300,7 +300,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/КС-4 Полянская.jpg" alt="Реконструкция КС-4 «Полянская» газопровода Челябинск – Петровск">
+                                    <img src="/build/img/rekonstruktsiya-ks-4-polyanskaya-gazoprovoda-chelyabinsk-petrovsk.jpeg" alt="Реконструкция КС-4 «Полянская» газопровода Челябинск – Петровск">
                                 </div>
                             </div>
                         </div>
@@ -323,7 +323,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="build/img/ЛПУМГ №3 в Нерюнгри.jpg" alt="ЛПУМГ №3 в Нерюнгри">
+                                    <img src="/build/img/lpumg-3-v-neryungri.jpeg" alt="ЛПУМГ №3 в Нерюнгри">
                                 </div>
                             </div>
                         </div>
@@ -346,7 +346,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/Майкопская КС.jpg" alt="Реконструкция Майкопской КС">
+                                    <img src="/build/img/rekonstruktsiya-maykopskoy-ks.jpeg" alt="Реконструкция Майкопской КС">
                                 </div>
                             </div>
                         </div>
@@ -369,7 +369,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/Московское УПХГ.jpg" alt="Техперевооружение Московского УПХГ">
+                                    <img src="/build/img/tekhperevooruzhenie-moskovskogo-upkhg.jpeg" alt="Техперевооружение Московского УПХГ">
                                 </div>
                             </div>
                         </div>
@@ -392,7 +392,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/острогожское-лпу-мг.jpg" alt="АВП Острогожского ЛПУМГ">
+                                    <img src="/build/img/avp-ostrogozhskogo-lpumg.jpeg" alt="АВП Острогожского ЛПУМГ">
                                 </div>
                             </div>
                         </div>
@@ -415,7 +415,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/программа газификации калужская обл.jpg" alt="Газификация Калужской области">
+                                    <img src="/build/img/programma-gazifikatsii-kaluzhskoy-oblasti.jpeg" alt="Газификация Калужской области">
                                 </div>
                             </div>
                         </div>
@@ -438,7 +438,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/программа газификации ленинградская обл.jpg" alt="Газификация Ленинградской области">
+                                    <img src="/build/img/programma-gazifikatsii-leningradskoy-oblasti.jpeg" alt="Газификация Ленинградской области">
                                 </div>
                             </div>
                         </div>
@@ -461,7 +461,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/программа газификации ростовская обл.jpg" alt="Газификация Ростовской области">
+                                    <img src="/build/img/programma-gazifikatsii-rostovskoy-oblasti.png" alt="Газификация Ростовской области">
                                 </div>
                             </div>
                         </div>
@@ -484,7 +484,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/программа газификации  брянская обл.jpg" alt="Газификация Брянской области">
+                                    <img src="/build/img/programma-gazifikatsii-bryanskoy-oblasti.jpeg" alt="Газификация Брянской области">
                                 </div>
                             </div>
                         </div>
@@ -507,7 +507,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/administrativnoe-zdanie-v-g-chaykovskiy.jpg" alt="Административное здание ООО «Газпром трансгаз Чайковский»">
+                                    <img src="/build/img/administrativnoe-zdanie-v-g-chaykovskiy.jpeg" alt="Административное здание ООО «Газпром трансгаз Чайковский»">
                                 </div>
                             </div>
                         </div>
@@ -530,7 +530,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/proekt-gruppy-zhilykh-domov-po-ul-9-yanvarya-g-voronezh.jpg" alt="Проект группы жилых домов по ул. 9 Января в городе Воронеж">
+                                    <img src="/build/img/proekt-gruppy-zhilykh-domov-po-ul-9-yanvarya-g-voronezh.jpeg" alt="Проект группы жилых домов по ул. 9 Января в городе Воронеж">
                                 </div>
                             </div>
                         </div>
@@ -553,7 +553,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img//projects/administrativnoe-zdanie-ooo-gazprom-transgaz-makhachkala/.jpg" alt="Административное здание ООО«Газпром трансгаз Махачкала»">
+                                    <img src="/build/img/administrativnoe-zdanie-ooo-gazprom-transgaz-makhachkala.jpeg" alt="Административное здание ООО«Газпром трансгаз Махачкала»">
                                 </div>
                             </div>
                         </div>
@@ -576,7 +576,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/soprovozhdenie-stroitelstva-dozhimnoy-kompressornoy-stantsii-obedinennogo-beregovogo-tekhnologichesk.jpg" alt="Сопровождение строительства Дожимной компрессорной станции Объединенного берегового технологического комплек­са проекта «Сахалин-2» (ДКС ОБТК)">
+                                    <img src="/build/img/soprovozhdenie-stroitelstva-dozhimnoy-kompressornoy-stantsii-obedinennogo-beregovogo-tekhnologichesk.jpeg" alt="Сопровождение строительства Дожимной компрессорной станции Объединенного берегового технологического комплек­са проекта «Сахалин-2» (ДКС ОБТК)">
                                 </div>
                             </div>
                         </div>
@@ -599,7 +599,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/gazoprovod-vysokogo-davleniya-ot-grs-2-g-elabuga-tsentralnaya-do-nknkh-ao-taif-nk.jpg" alt="Газопровод высокого давления от ГРС-2 г. Елабуга (Центральная) до «НКНХ», АО «ТАИФ-НК»">
+                                    <img src="/build/img/gazoprovod-vysokogo-davleniya-ot-grs-2-g-elabuga-tsentralnaya-do-nknkh-ao-taif-nk.jpeg" alt="Газопровод высокого давления от ГРС-2 г. Елабуга (Центральная) до «НКНХ», АО «ТАИФ-НК»">
                                 </div>
                             </div>
                         </div>
@@ -622,7 +622,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/logisticheskiy-tsentr-pao-gazprom.jpg" alt="Логистический центр ПАО«Газпром»">
+                                    <img src="/build/img/logisticheskiy-tsentr-pao-gazprom.bmp" alt="Логистический центр ПАО«Газпром»">
                                 </div>
                             </div>
                         </div>
@@ -645,7 +645,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/proizvodstvenno-tekhnicheskaya-baza-sakhalin-enerdzhi-investment-kompani-ltd-.jpg" alt="Производственно-техническая база ООО«Сахалинская Энергия»">
+                                    <img src="/build/img/proizvodstvenno-tekhnicheskaya-baza-sakhalin-enerdzhi-investment-kompani-ltd.jpeg" alt="Производственно-техническая база ООО«Сахалинская Энергия»">
                                 </div>
                             </div>
                         </div>
@@ -668,7 +668,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/ofisnyy-kompleks-ooo-gazprom-dobycha-shelf-yuzhno-sakhalinsk.jpg" alt="Офисный комплекс ООО«Газпром добыча шельф Южно-Сахалинск»">
+                                    <img src="/build/img/ofisnyy-kompleks-ooo-gazprom-dobycha-shelf-yuzhno-sakhalinsk.jpeg" alt="Офисный комплекс ООО«Газпром добыча шельф Южно-Сахалинск»">
                                 </div>
                             </div>
                         </div>
@@ -691,7 +691,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/m-12-stroyashchayasya-skorostnaya-avtomobilnaya-doroga-moskva-nizhniy-novgorod-kazan.jpg" alt="М-12 «Строящаяся скоростная автомобильная дорога Москва — Нижний Новгород — Казань»">
+                                    <img src="/build/img/m-12-stroyashchayasya-skorostnaya-avtomobilnaya-doroga-moskva-nizhniy-novgorod-kazan.jpeg" alt="М-12 «Строящаяся скоростная автомобильная дорога Москва — Нижний Новгород — Казань»">
                                 </div>
                             </div>
                         </div>
