@@ -255,6 +255,39 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+body::before,
+body::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  min-width: 1185px;
+  width: 1185px;
+  min-height: 100%;
+  height: 100%;
+  background-image: url("/build/img/page-bg-repeat-y.png");
+  background-repeat: no-repeat repeat;
+  background-position: top center;
+  background-color: #F7F8FA;
+}
+
+body:not(.main-page)::before,
+body:not(.main-page)::after {
+  top: 370px;
+}
+
+body.main-page::before,
+body.main-page::after {
+  top: 1050px;
+}
+
+body::before {
+  left: -50%;
+}
+
+body::after {
+  right: -50%;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -305,32 +338,6 @@ textarea {
 :-moz-placeholder {
   opacity: 1;
   color: var(--main-text-color);
-}
-
-.main-page {
-  position: relative;
-}
-
-.main-page::before,
-.main-page::after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  min-width: 1720px;
-  width: 1720px;
-  min-height: 1720px;
-  height: 1720px;
-  background: url("/build/img/page-bg.png") center no-repeat, #F7F8FA;
-}
-
-.main-page::before {
-  left: -50%;
-}
-
-.main-page::after {
-  right: -50%;
 }
 
 .ext-container {
@@ -556,6 +563,7 @@ svg {
 }
 
 .company-slider .swiper-slide {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
@@ -577,6 +585,22 @@ svg {
   bottom: 0;
   left: 0;
   background: linear-gradient(98deg, #4F4F4F 0%, #6F6F6F 100%);
+}
+
+.company-slider__video-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
 }
 
 .company-slider__slide-container {
@@ -3724,6 +3748,78 @@ input[type=search]::-webkit-search-results-decoration {
   display: none !important;
 }
 
+.project-slider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-slider-wrapper .swiper-navigation {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-slider-wrapper .swiper-button-prev,
+.project-slider-wrapper .swiper-button-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #06416A;
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+.project-slider-wrapper .swiper-button-prev,
+.project-slider-wrapper .swiper-button-next,
+.project-slider-wrapper .swiper-button-prev:hover,
+.project-slider-wrapper .swiper-button-next:hover {
+  background-color: transparent;
+}
+
+.project-slider-wrapper .swiper-button-next .icon {
+  transform: rotate(180deg);
+}
+
+.project-slider {
+  position: relative;
+}
+
+.project-slider__content:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.project-slider .video-block,
+.project-slider__content-view {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.project-slider .video-block iframe,
+.project-slider__content-view img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+.project-slider__content-caption {
+  color: #61686A;
+  text-align: center;
+}
+
 /* ============= //common ============= */
 
 /* ============= header ============= */
@@ -4173,6 +4269,11 @@ footer .footer-nav-heading {
     height: 210px;
     margin-bottom: 15px;
   }
+
+  .project-slider__content-caption {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -4286,6 +4387,22 @@ footer .footer-nav-heading {
 
   .contacts-header-wrapper .contact-element__content {
     font-size: 24px;
+  }
+
+  .project-slider-wrapper .swiper-button-prev,
+  .project-slider-wrapper .swiper-button-next {
+    min-width: 40px;
+    min-height: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .project-slider-wrapper .swiper-button-prev .icon,
+  .project-slider-wrapper .swiper-button-next .icon {
+    min-width: 10px;
+    min-height: 10px;
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -4778,6 +4895,15 @@ footer .footer-nav-heading {
   }
 }
 
+@media (min-width: 1400px) {
+  .project-slider-wrapper {
+    margin-right: -60px;
+    margin-left: -60px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
 @media (max-width: 1199.98px) {
   .company-slider .swiper-navigation {
     justify-content: space-between;
@@ -4890,6 +5016,24 @@ footer .footer-nav-heading {
 }
 
 @media (max-width: 991.98px) {
+  body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden auto;
+    background-color: var(--bg-light-color);
+    color: var(--main-text-color);
+    font-family: "Mulish", sans-serif;
+  }
+
+  body::before,
+  body::after {
+    display: none;
+  }
+
   .news-article-box__caption {
     font-size: 14px;
   }
@@ -5999,6 +6143,32 @@ footer .footer-nav-heading {
     padding-left: 20px;
   }
 
+  .project-slider-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .project-slider-wrapper .swiper-button-prev,
+  .project-slider-wrapper .swiper-button-next {
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .project-slider-wrapper .swiper-button-prev .icon,
+  .project-slider-wrapper .swiper-button-next .icon {
+    min-width: 5px;
+    min-height: 5px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .project-slider__content-caption {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
   .pre-footer .footer-search input::-moz-placeholder {
     display: none;
   }
@@ -6107,6 +6277,27 @@ footer .footer-nav-heading {
   .project-card-wrapper {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .project-slider-wrapper {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .project-slider-wrapper .swiper-button-prev,
+  .project-slider-wrapper .swiper-button-next {
+    min-width: 30px;
+    min-height: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .project-slider-wrapper .swiper-button-prev .icon,
+  .project-slider-wrapper .swiper-button-next .icon {
+    min-width: 8px;
+    min-height: 8px;
+    width: 16px;
+    height: 16px;
   }
 
   .navbar .navbar-nav {
@@ -6503,5 +6694,12 @@ footer .footer-nav-heading {
 
   .contacts-header {
     grid-gap: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1399.98px) {
+  .project-slider-wrapper {
+    padding-right: 60px;
+    padding-left: 60px;
   }
 }

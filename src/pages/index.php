@@ -12,7 +12,18 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" style="background-image: url('/build/img/bg_img-1.jpg');">
+            <div class="swiper-slide">
+                <video class="company-slider__video-bg"
+                       poster="/build/img/bg_img-1.jpg"
+                       loop=""
+                       muted=""
+                       playsinline=""
+                       webkit-playsinline=""
+                       data-plugin="videoAutoPlay"
+                       autoplay="autoplay"
+                >
+                    <source src="/build/video/demo.mp4" type="video/mp4">
+                </video>
                 <div class="container company-slider__slide-container">
                     <div class="company-slider__slide-title">Главный заголовок, возможно в 2 строки</div>
                     <div class="company-slider__slide-subtitle">Подзаголовок, далее текст рыба: внедрение современных технологий информационного моделирования, прокладка магистральных газопроводов в сложных природно-климатических условиях.</div>
@@ -191,105 +202,7 @@
         <div class="section-area__subtitle text-center">Ознакомьтесь с уже реализованными проектами.</div>
     </div>
 
-    <div class="country-map">
-            <div class="vmap-wrapper">
-                <div id="vmap" class="vmap"></div>
-                <div class="vmap-pins">
-                    <div class="vmap-pin" data-id="1" style="top: 35%; left: 50%;">
-                        <div class="vmap-pin__view">
-                            <svg class="vmap-pin__icon">
-                                <use href="/build/img/sprite.svg#logo"></use>
-                            </svg>
-                        </div>
-                        <div class="map-content-box">
-                            <div class="map-content-box__inner">
-                                <div class="map-content-box__image swiper swiper-container">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="map-content-box__title">Длинное название объекта</div>
-                                <div class="map-content-box__caption">Краткое описание этого самого объекта в 2 небольшие строчки текста</div>
-                                <div class="map-content-box__place">Омск, Бульвар победы, 763\4</div>
-                            </div>
-
-                            <div class="map-content-box__bottom">
-                                <div class="arrow-btn swiper-button-prev"></div>
-
-                                <div class="pagination_map swiper-pagination"></div>
-
-                                <div class="arrow-btn swiper-button-next"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vmap-pin" data-id="2" style="top: 49.5%; left: 14.25%;">
-                        <div class="vmap-pin__view">
-                            <svg class="vmap-pin__icon">
-                                <use href="/build/img/sprite.svg#logo"></use>
-                            </svg>
-                        </div>
-                        <div class="map-content-box">
-                            <div class="map-content-box__inner">
-                                <div class="map-content-box__image swiper swiper-container">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="/build/img/map-img.jpg" data-fancybox="images" data-caption="My caption">
-                                                <img src="/build/img/map-img.jpg" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="map-content-box__title">Длинное название объекта</div>
-                                <div class="map-content-box__caption">Краткое описание этого самого объекта в 2 небольшие строчки текста</div>
-                                <div class="map-content-box__place">Омск, Бульвар победы, 763\4</div>
-                            </div>
-
-                            <div class="map-content-box__bottom">
-                                <div class="arrow-btn swiper-button-prev"></div>
-
-                                <div class="pagination_map swiper-pagination"></div>
-
-                                <div class="arrow-btn swiper-button-next"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+	<?php include($_SERVER["DOCUMENT_ROOT"] . '/build/components/main-map.php'); ?>
 </div>
 
 <div class="section-area">

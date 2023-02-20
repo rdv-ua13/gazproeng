@@ -10,6 +10,7 @@ function application() {
 }
 application.prototype.init = function () {
     this.setNavbarTogglerBehavior();
+    this.setNavbarDropToggleBehavior();
     this.initLangSwitcher();
     this.initBtnDropdown();
     this.initStrategicGoal();
@@ -19,8 +20,9 @@ application.prototype.init = function () {
     this.setTabLinkClick();
     this.initContactsMap();
     this.initSvgMap();
-    this.initClickOnPin();
-}
+    this.initSvgMapSettings();
+    this.initGoToBlock();
+};
 
 // Set navbar-toggler behavior js-lang-switcher
 application.prototype.setNavbarTogglerBehavior = function () {
@@ -29,7 +31,20 @@ application.prototype.setNavbarTogglerBehavior = function () {
             $(this).closest("body").toggleClass("overflow-hidden");
         });
     }
-}
+};
+// Set navbar dropdown-toggle behavior
+application.prototype.setNavbarDropToggleBehavior = function () {
+    if($(".navbar .dropdown-toggle").length) {
+        $(".navbar .dropdown .dropdown-toggle").on("click", function (e) {
+            $(this).closest(".dropdown").removeClass("show");
+            let $href = $(this).attr("href");
+            go($href);
+            function go(url){
+                location.href=url;
+            }
+        });
+    }
+};
 // Init lang-switcher navbar behavior js-lang-switcher
 application.prototype.initLangSwitcher = function () {
     if($(".js-lang-switcher").length) {
@@ -54,7 +69,7 @@ application.prototype.initLangSwitcher = function () {
             $(".lang-switcher-link").text(textAbbr);
         });
     }
-}
+};
 // Init ".btn-dropdown" behavior
 application.prototype.initBtnDropdown = function () {
     if ($(".btn-dropdown").length) {
@@ -85,7 +100,7 @@ application.prototype.initBtnDropdown = function () {
             }
         });
     }
-}
+};
 // Init "strategic-goal__header" behavior
 application.prototype.initStrategicGoal = function () {
     if ($(".js-strategic-goal-item").length) {
@@ -99,7 +114,7 @@ application.prototype.initStrategicGoal = function () {
             }
         });
     }
-}
+};
 // Init sliders
 application.prototype.initSliders = function () {
     // Magazine slider
@@ -131,35 +146,14 @@ application.prototype.initSliders = function () {
     if ($(".js-feedback-slider").length) {
         let feedbackSliderSettings = {
             slidesPerView: "auto",
-            spaceBetween: 20,
+            spaceBetween: 0,
             navigation: {
                 nextEl: ".feedback .swiper-button-next",
                 prevEl: ".feedback .swiper-button-prev",
             },
             pagination: {
                 el: ".feedback .swiper-pagination",
-                clickable: true,
-                dynamicBullets: true,
-                dynamicMainBullets: 8,
-            },
-            breakpoints: {
-                768: {
-                    pagination: {
-                        dynamicMainBullets: 5
-                    },
-                },
-                992: {
-                    slidesPerView: 3,
-                    pagination: {
-                        dynamicMainBullets: 5
-                    },
-                },
-                1200: {
-                    slidesPerView: 4,
-                    pagination: {
-                        dynamicMainBullets: 3
-                    },
-                }
+                clickable: true
             }
         };
         new Swiper(".js-feedback-slider", feedbackSliderSettings);
@@ -221,14 +215,9 @@ application.prototype.initSliders = function () {
         const enableAwardsSliderTabletComputer = function() {
             awardsSliderThumbs = new Swiper(".js-awards-thumbs-slider", {
                 slidesPerView: "auto",
-                spaceBetween: 15,
+                spaceBetween: 0,
                 freeMode: true,
-                watchSlidesProgress: true,
-                breakpoints: {
-                    1200: {
-                        spaceBetween: 30
-                    }
-                }
+                watchSlidesProgress: true
             });
             awardsSliderTabletComputer = new Swiper(".js-awards-slider", {
                 slidesPerView: 1,
@@ -252,7 +241,7 @@ application.prototype.initSliders = function () {
         const enableAwardsSliderMobile = function() {
             awardsSliderMobile = new Swiper(".js-awards-slider", {
                 slidesPerView: "auto",
-                spaceBetween: 10,
+                spaceBetween: 0,
                 thumbs: {
                     swiper: awardsSliderThumbs,
                 },
@@ -262,16 +251,28 @@ application.prototype.initSliders = function () {
                 },
                 pagination: {
                     el: ".awards-slider .swiper-pagination-wrapper .swiper-pagination",
-                    clickable: true,
-                    dynamicBullets: true,
-                    dynamicMainBullets: 8,
+                    clickable: true
                 }
             });
         };
         breakpoint.addListener(breakpointChecker);
         breakpointChecker();
     }
-}
+
+    // Project slider
+    if ($(".js-project-slider").length) {
+        let projectSliderSettings = {
+            slidesPerView: "auto",
+            spaceBetween: 0,
+            autoHeight: true,
+            navigation: {
+                nextEl: ".project-slider-wrapper .swiper-button-next",
+                prevEl: ".project-slider-wrapper .swiper-button-prev",
+            },
+        };
+        new Swiper(".js-project-slider", projectSliderSettings);
+    }
+};
 // Init tabs
 application.prototype.initTabs = function () {
     if ($(".tabs").length) {
@@ -297,7 +298,7 @@ application.prototype.initTabs = function () {
             });
         }
     }
-}
+};
 // Init filter tabs
 application.prototype.setFilterTabsBehavior = function () {
     if ($(".page-search-result__filter").length) {
@@ -313,7 +314,7 @@ application.prototype.setFilterTabsBehavior = function () {
             });
         });
     }
-}
+};
 // Set tabs behavior on click
 application.prototype.setTabLinkClick = function () {
     if ($(".js-tab-link").length) {
@@ -332,13 +333,13 @@ application.prototype.setTabLinkClick = function () {
             }
         });
     }
-}
+};
 // Init contacts map
 application.prototype.initContactsMap = function () {
     if ($("#mapId").length) {
         ymaps.ready(function () {
             // map 1
-            var myMap = new ymaps.Map('mapId', {
+            let myMap = new ymaps.Map('mapId', {
                     center: [51.673902, 39.253225],
                     zoom: 16,
                     controls: []
@@ -360,7 +361,7 @@ application.prototype.initContactsMap = function () {
             // map 1.end
 
             // map 2
-            var map = new ymaps.Map('unitMap', {
+            let map = new ymaps.Map('unitMap', {
                 center: [55.653822, 37.540057],
                 zoom: 14,
                 controls: ['zoomControl']
@@ -370,14 +371,14 @@ application.prototype.initContactsMap = function () {
             map.behaviors.disable('multiTouch');
             // map.behaviors.disable('drag');
 
-            var myPlacemark1 = new ymaps.Placemark([55.653822, 37.540057]);
-            var myPlacemark2 = new ymaps.Placemark([56.311172, 43.996797]);
-            var myPlacemark3 = new ymaps.Placemark([58.229197, 68.274827]);
-            var myPlacemark4 = new ymaps.Placemark([45.051959, 41.995916]);
-            var myPlacemark5 = new ymaps.Placemark([56.473043, 84.968553]);
-            var myPlacemark6 = new ymaps.Placemark([53.944368, 27.609747]);
-            var myPlacemark7 = new ymaps.Placemark([47.230456, 39.760917]);
-            var myPlacemark8 = new ymaps.Placemark([59.825656, 30.326163]);
+            let myPlacemark1 = new ymaps.Placemark([55.653822, 37.540057]);
+            let myPlacemark2 = new ymaps.Placemark([56.311172, 43.996797]);
+            let myPlacemark3 = new ymaps.Placemark([58.229197, 68.274827]);
+            let myPlacemark4 = new ymaps.Placemark([45.051959, 41.995916]);
+            let myPlacemark5 = new ymaps.Placemark([56.473043, 84.968553]);
+            let myPlacemark6 = new ymaps.Placemark([53.944368, 27.609747]);
+            let myPlacemark7 = new ymaps.Placemark([47.230456, 39.760917]);
+            let myPlacemark8 = new ymaps.Placemark([59.825656, 30.326163]);
             map.geoObjects.add(myPlacemark1);
             map.geoObjects.add(myPlacemark2);
             map.geoObjects.add(myPlacemark3);
@@ -429,7 +430,7 @@ application.prototype.initContactsMap = function () {
             // map 2.end
         });
     }
-}
+};
 // Init svg map
 application.prototype.initSvgMap = function () {
     if ($("#vmap").length) {
@@ -444,14 +445,14 @@ application.prototype.initSvgMap = function () {
             borderWidth: 1,
             selectedColor: '#06416A',
             showTooltip: true,
-            selectedRegions: ["kr", "ro"],
+            selectedRegions: ["da", "am", "ta", "st", "rz", "ks", "bs", "sa", "mc", "vn", "kj", "le", "ro", "bn", "sr", "ad", "ob", "sh", "pe", "nn"],
             onRegionClick: function(element, code, region){
                 element.preventDefault();
             }
         });
 
         $(window).on("load resize",function(){
-            var winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            let winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
             $(".vmap-wrapper").mCustomScrollbar({
                 axis:"x",
                 autoDraggerLength: true,
@@ -466,44 +467,70 @@ application.prototype.initSvgMap = function () {
             });
         });
     }
-}
+};
 // Init click on map's pin
-application.prototype.initClickOnPin = function () {
+application.prototype.initSvgMapSettings = function () {
     if ($("#vmap").length) {
-        let currentEl = null,
-            popupSlider = null;
+        setMapsPreloadPause();
+        setMapOnclick();
 
-        $(".vmap-pin").on("click", function () {
-            currentEl = $(this).data("id");
+        function setMapsPreloadPause() {
+            setTimeout(function () {
+                $(".country-map").removeClass("country-map--preload");
+            }, 2000);
+        }
 
-            if (!$(this).hasClass("active")) {
-                $(".vmap-pin").not(this).removeClass("active");
-                $(this).addClass("active");
-                popupSlider = new Swiper(".vmap-pin[data-id='" + currentEl + "'] .swiper", {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    navigation: {
-                        nextEl: ".vmap-pin[data-id='" + currentEl + "'] .swiper-button-next",
-                        prevEl: ".vmap-pin[data-id='" + currentEl + "'] .swiper-button-prev",
-                    },
-                    pagination: {
-                        el: ".vmap-pin[data-id='" + currentEl + "'] .swiper-pagination",
-                        clickable: true,
-                        dynamicBullets: true,
-                        dynamicMainBullets: 4,
-                    }
-                });
-            }
-        });
+        function setMapOnclick() {
+            let currentEl = null,
+                popupSlider = null;
 
-        $(document).on("click", function (e) {
-            if (!$(".vmap-pin").is(e.target) && $(".vmap-pin").has(e.target).length === 0) {
-                currentEl = null;
-                popupSlider.destroy( true, true );
-                $(".vmap-pin").removeClass("active");
-            }
-        });
+            $(".vmap-pin").on("click", function () {
+                currentEl = $(this).data("id");
+
+                if (!$(this).hasClass("active")) {
+                    $(".vmap-pin").not(this).removeClass("active");
+                    $(this).addClass("active");
+                    popupSlider = new Swiper(".vmap-pin[data-id='" + currentEl + "'] .swiper", {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                        navigation: {
+                            nextEl: ".vmap-pin[data-id='" + currentEl + "'] .swiper-button-next",
+                            prevEl: ".vmap-pin[data-id='" + currentEl + "'] .swiper-button-prev",
+                        },
+                        pagination: {
+                            el: ".vmap-pin[data-id='" + currentEl + "'] .swiper-pagination",
+                            clickable: true,
+                            dynamicBullets: true,
+                            dynamicMainBullets: 4,
+                        }
+                    });
+                }
+            });
+
+            $(".vmap-pin .map-content-box__close").on("click", function () {
+                $(this).closest(".vmap-pin").removeClass("active");
+            });
+
+            $(document).on("click", function (e) {
+                if (!$(".vmap-pin").is(e.target) && $(".vmap-pin").has(e.target).length === 0
+                    || $(".vmap-pin .map-content-box__close").is(e.target)) {
+                    currentEl = null;
+                    /*popupSlider.destroy( true, true );*/
+                    $(".vmap-pin").removeClass("active");
+                }
+            });
+        }
     }
-}
+};
+// Init func go to block
+application.prototype.initGoToBlock = function () {
+    if($(".js-has-target").length) {
+        $(this).on("click", function () {
+            let target = $(this).data("target");
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("[data-id='" + target + "']").offset().top
+            }, 300);
+        });
 
-
+    }
+};

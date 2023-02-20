@@ -54,12 +54,57 @@
                         <p><b>Фасады</b> производственного здания <b>дополнены перфорированными металлическими кассетами белого цвета</b>, защищающими от перегрева и визуально облегчающими конструкцию.</p>
                     </div>
                 </div>
+
                 <div class="block-mb-text">
+                    <div class="project-slider-wrapper">
+                        <div class="swiper swiper-container project-slider js-project-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="project-slider__content">
+                                        <div class="project-slider__content-view">
+                                            <img src="/build/img/unique-project-img2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="project-slider__content-caption">Любая необходимая подпись к изображению</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="project-slider__content">
+                                        <div class="video-block">
+                                            <iframe src="https://rutube.ru/play/embed/11042b47f5f0ef13654e481428dc6b3b"
+                                                    frameBorder="0"
+                                                    allow="clipboard-write; autoplay"
+                                                    webkitAllowFullScreen
+                                                    mozallowfullscreen
+                                                    allowFullScreen
+                                            ></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="project-slider__content-caption">Любая необходимая подпись к изображению 2</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-navigation">
+                            <div class="swiper-button-prev">
+                                <svg class="icon">
+                                    <use href="/build/img/sprite.svg#project-nav-arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="swiper-button-next">
+                                <svg class="icon">
+                                    <use href="/build/img/sprite.svg#project-nav-arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+				<?/*<div class="block-mb-text">
                     <div class="news-details__view news-details__view--caption">
                         <div class="news-details__view-content img-medium" style="background-image: url('/build/img/unique-project-img2.jpg');"></div>
                         <div class="news-details__view-caption">Любая необходимая подпись к&nbsp;изображению</div>
                     </div>
-                </div>
+                </div>*/?>
+
                 <div class="block-mb-text-big">
                     <div class="text-block text-block--fz-big">
                         <div class="title-mb h4.5">Заголовок второго уровня</div>
