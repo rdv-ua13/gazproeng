@@ -546,7 +546,7 @@
                         <div class="map-content-box__image swiper swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="/build/img/logisticheskiy-tsentr-pao-gazprom.bmp" alt="Логистический центр ПАО«Газпром»">
+                                    <img src="/build/img/logisticheskiy-tsentr-pao-gazprom.jpeg" alt="Логистический центр ПАО«Газпром»">
                                 </div>
                             </div>
                         </div>
